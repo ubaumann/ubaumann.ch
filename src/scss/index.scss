@@ -1,0 +1,13 @@
+@import 'mixins';
+@import 'reset';
+@import 'global';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+}
