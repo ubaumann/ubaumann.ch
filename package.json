@@ -1,0 +1,22 @@
+{
+  "name": "michelbongard.ch.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbongard/michelbongard.ch.github.io.git"
+  },
+  "author": "Michel Bongard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbongard/michelbongard.ch.github.io/issues"
+  },
+  "homepage": "https://github.com/mbongard/michelbongard.ch.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
