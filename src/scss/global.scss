@@ -10,3 +10,15 @@
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: $breakpoint-one) {
+    .Tile {
+      width: 50rem;
+    }
+}
+
+@media screen and (max-width: $breakpoint-two) {
+    .Tile {
+      width: 20rem;
+    }
+}
