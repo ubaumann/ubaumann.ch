@@ -1,7 +1,7 @@
 {
   "name": "michelbongard.ch.github.io",
   "version": "0.1.0",
-  "homepage": "https://github.com/mbongard/michelbongard.ch.github.io",
+  "homepage": "https://mbongard.github.io/michelbongard.ch.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
