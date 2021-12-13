@@ -1,0 +1,43 @@
+.AboutMe {
+    margin-top: 35rem;
+    display: flex;
+    padding: 2rem;
+    
+    &-About {
+        width: 50%;
+        padding-right: 1rem;
+        text-align: start;
+
+        & > p {
+            margin-bottom: 1rem;
+        }
+    }
+    
+    &-Basic {
+        width: 50%;
+        display: flex;
+        padding-left: 1rem;
+        flex-direction: column;
+
+        &-Item {
+            display: flex;
+            margin: 0.25rem 0;
+
+            &-Name {
+                width: 30%;
+                text-align: start;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            &-Value {
+                width: 70%;
+                text-align: start;
+            }
+        }
+
+        &-Item:nth-child(2) {
+            margin-top: 0rem;
+        }
+    }
+}

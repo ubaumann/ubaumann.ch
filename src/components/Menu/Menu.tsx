@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem/MenuItem"
-
+import './Menu.scss'
 
 const Menu = (): JSX.Element => {
     return (
