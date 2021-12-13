@@ -1,4 +1,4 @@
-import BannerImage from '../../assets/bridge2_2.5_to_1.jpg';
+import BannerImage from '../../assets/banner.jpg';
 import ProfileImage from '../../assets/profileImage.jpg';
 import './Banner.scss';
 import SocialIcon from '../SocialIcon/SocialIcon';
