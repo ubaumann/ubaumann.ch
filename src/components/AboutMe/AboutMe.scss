@@ -75,8 +75,11 @@
             margin-top: 1.5rem;
 
             &-Item {
+                display: flex;
+                justify-content: space-between;
+                
                 &-Name {
-                    width: 50%;
+                    width: 45%;
                 }
     
                 &-Value {
