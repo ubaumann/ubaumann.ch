@@ -11,28 +11,34 @@ const AboutMe = (): JSX.Element => {
             <div className="AboutMe-Bio">
                 <div className='TileTitle'>Bio</div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">First Name</div>
-                    <div className="AboutMe-Bio-Item-Value">Michel</div>
+                    <div className="AboutMe-Bio-Item-Name">Name</div>
+                    <div className="AboutMe-Bio-Item-Value">Michel Bongard</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Last Name</div>
-                    <div className="AboutMe-Bio-Item-Value">Bongard</div>
+                    <div className="AboutMe-Bio-Item-Name">Age</div>
+                    <div className="AboutMe-Bio-Item-Value">{getAgeByBirthday(new Date('1994-1-9'))}</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
                     <div className="AboutMe-Bio-Item-Name">Academic Title</div>
                     <div className="AboutMe-Bio-Item-Value">Bachelor of Science FHO in Computer Science</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Email</div>
-                    <div className="AboutMe-Bio-Item-Value">mail@michelbongard.ch</div>
-                </div>
-                <div className="AboutMe-Bio-Item">
                     <div className="AboutMe-Bio-Item-Name">Languages</div>
                     <div className="AboutMe-Bio-Item-Value">German, English, Portuguese</div>
+                </div>
+                <div className="AboutMe-Bio-Item">
+                    <div className="AboutMe-Bio-Item-Name">Email</div>
+                    <div className="AboutMe-Bio-Item-Value">mail@michelbongard.ch</div>
                 </div>
             </div>
         </div>
     )
+}
+
+const getAgeByBirthday = (birthday: Date) : number => {
+    var diffInMilliseconds = Date.now() - birthday.getTime();
+    var ageDate = new Date(diffInMilliseconds);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
 export default AboutMe
