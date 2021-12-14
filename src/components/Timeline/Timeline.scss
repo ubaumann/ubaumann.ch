@@ -64,6 +64,7 @@
 @media screen and (max-width: $breakpoint-two) {
     .TimelineItem {
         width: 100%;
+        padding-right: 0;
 
         &:nth-child(2n) {
             align-self: flex-end;
