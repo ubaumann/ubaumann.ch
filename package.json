@@ -1,7 +1,7 @@
 {
   "name": "michelbongard.ch",
   "version": "0.1.0",
-  "homepage": "https://michelbongard.ch",
+  "homepage": "https://www.michelbongard.ch",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-common-types": "^0.2.36",
