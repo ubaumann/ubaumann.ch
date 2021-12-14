@@ -11,7 +11,7 @@ const Skills = () => {
                 <ProgressBar cssClass='Skills-ProgressBar' name='SCSS' progress={80} />
                 <ProgressBar cssClass='Skills-ProgressBar' name='Typescript' progress={60} />
                 <ProgressBar cssClass='Skills-ProgressBar' name='React' progress={50} />
-                <ProgressBar cssClass='Skills-ProgressBar' name='.Net' progress={50} />
+                <ProgressBar cssClass='Skills-ProgressBar' name='.Net' progress={40} />
                 <ProgressBar cssClass='Skills-ProgressBar' name='C#' progress={80} />
                 <ProgressBar cssClass='Skills-ProgressBar' name='Java' progress={50} />
                 <ProgressBar cssClass='Skills-ProgressBar' name='Golang' progress={50} />
