@@ -5,12 +5,14 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faEnvelope,
+  faBriefcase,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
   faGithub,
   faLinkedin,
   faEnvelope,
+  faBriefcase,
 );
 
 export default library;
