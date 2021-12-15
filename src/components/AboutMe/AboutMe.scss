@@ -25,6 +25,7 @@
             margin: 0.25rem 0;
 
             &-Name {
+                display: flex;
                 width: 30%;
                 text-align: start;
                 text-transform: uppercase;
@@ -35,6 +36,12 @@
                 width: 70%;
                 text-align: start;
             }
+        }
+
+        &-IconContainer {
+            width: 1.3rem;
+            margin-right: 0.5rem;
+            opacity: 0.8;
         }
 
         &-Item:nth-child(2) {

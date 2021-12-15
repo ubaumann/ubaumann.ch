@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './AboutMe.scss'
 
 const AboutMe = (): JSX.Element => {
@@ -11,23 +12,48 @@ const AboutMe = (): JSX.Element => {
             <div className="AboutMe-Bio">
                 <div className='TileTitle'>Bio</div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Name</div>
+                    <div className="AboutMe-Bio-Item-Name">
+                        <div className='AboutMe-Bio-IconContainer'>
+                            <FontAwesomeIcon className='AboutMe-Bio-Icon' icon={["fas", "signature"]} />
+                        </div>
+                        <div>Name</div>
+                    </div>
                     <div className="AboutMe-Bio-Item-Value">Michel Bongard</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Age</div>
+                    <div className="AboutMe-Bio-Item-Name">
+                        <div className='AboutMe-Bio-IconContainer'>
+                            <FontAwesomeIcon className='AboutMe-Bio-Icon' icon={["fas", "calendar-alt"]} />
+                        </div>
+                        <div>Age</div>
+                    </div>
                     <div className="AboutMe-Bio-Item-Value">{getAgeByBirthday(new Date('1994-1-9'))}</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Academic Title</div>
+                    <div className="AboutMe-Bio-Item-Name">
+                        <div className='AboutMe-Bio-IconContainer'>
+                            <FontAwesomeIcon className='AboutMe-Bio-Icon' icon={["fas", "graduation-cap"]} />
+                        </div>
+                        <div>Degree</div>
+                    </div>
                     <div className="AboutMe-Bio-Item-Value">Bachelor of Science FHO in Computer Science</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Languages</div>
+                    <div className="AboutMe-Bio-Item-Name">
+                        <div className='AboutMe-Bio-IconContainer'>
+                            <FontAwesomeIcon className='AboutMe-Bio-Icon' icon={["fas", "globe"]} />
+                        </div>
+                        <div>Language</div>
+                    </div>
                     <div className="AboutMe-Bio-Item-Value">German, English, Portuguese</div>
                 </div>
                 <div className="AboutMe-Bio-Item">
-                    <div className="AboutMe-Bio-Item-Name">Email</div>
+                    <div className="AboutMe-Bio-Item-Name">
+                        <div className='AboutMe-Bio-IconContainer'>
+                            <FontAwesomeIcon className='AboutMe-Bio-Icon' icon={["fas", "envelope"]} />
+                        </div>
+                        <div>Email</div>
+                    </div>
                     <div className="AboutMe-Bio-Item-Value">mail@michelbongard.ch</div>
                 </div>
             </div>

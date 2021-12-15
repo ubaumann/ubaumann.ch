@@ -9,6 +9,10 @@ import {
   faBriefcase,
   faExternalLinkAlt,
   faArrowDown,
+  faSignature,
+  faCalendarAlt,
+  faGraduationCap,
+  faGlobe,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -19,6 +23,11 @@ library.add(
   faArrowDown,
   faExternalLinkAlt,
   faYoutube,
+  faSignature,
+  faCalendarAlt,
+  faGraduationCap,
+  faGlobe,
+  faEnvelope,
 );
 
 export default library;
