@@ -24,7 +24,9 @@ const ProjectItem = (props: ProjectItemProps) => {
 
     return (
         <div className='ProjectItem Tile'>
-            <img className="ProjectItem-Image" src={image} alt={imageAlt} />
+            <div className="ProjectItem-ImageContainer">
+                <img className="ProjectItem-Image" src={image} alt={imageAlt} />
+            </div>
             <div className="ProjectItem-Content">
                 <div className="ProjectItem-Header">{title}</div>
                 {children}
