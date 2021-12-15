@@ -1,4 +1,8 @@
 .Projects {
+    & .TileTitle {
+        font-size: 3rem;
+    }
+
     &-Header {
         display: flex;
         flex-direction: column;
@@ -6,7 +10,8 @@
     }
     
     &-HeaderIcon {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-top: 1rem;
         margin-bottom: -1rem;
     }
 }
