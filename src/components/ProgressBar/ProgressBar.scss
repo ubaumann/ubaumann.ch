@@ -1,5 +1,11 @@
 .ProgressBar {
+    &-Image {
+        height: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
     &-Title {
+        display: flex;
         text-align: start;
         font-weight: bold;
         margin-bottom: 0.5rem;

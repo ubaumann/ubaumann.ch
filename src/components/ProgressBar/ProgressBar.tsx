@@ -4,6 +4,8 @@ import './ProgressBar.scss'
 type ProgressBarProps = {
     cssClass: string;
     name: string;
+    image?: string;
+    imageAlt?: string;
     progress: number;
 }
 
@@ -20,10 +22,13 @@ const SkillThresholds = Object.freeze({
 })
 
 const ProgressBar = (props: ProgressBarProps) => {
-    const {cssClass, name, progress} = props;
+    const {cssClass, name, image, imageAlt, progress} = props;
     return (
         <div className={buildClassName("ProgressBar", cssClass)}>
-            <div className="ProgressBar-Title">{name}</div>
+            <div className="ProgressBar-Title">
+                { image && <img src={image} alt={imageAlt} className='ProgressBar-Image' /> }
+                <span>{name}</span>
+            </div>
             <div className="ProgressBar-Bar">
                 <div className='ProgressBar-Progress' style={{width: progress + "%"}}>
                     <div className="ProgressBar-Level">{getSkillLevel(progress)}</div>
