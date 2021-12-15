@@ -6,6 +6,8 @@ import {
 import {
   faEnvelope,
   faBriefcase,
+  faClipboard,
+  faArrowDown,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -13,6 +15,8 @@ library.add(
   faLinkedin,
   faEnvelope,
   faBriefcase,
+  faClipboard,
+  faArrowDown,
 );
 
 export default library;
