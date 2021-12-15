@@ -34,7 +34,7 @@ const ProjectItem = (props: ProjectItemProps) => {
                     <div className="ProjectItem-Links">
                         {footerItems?.map(item => {
                             return (
-                                <a className="ProjectItem-FooterLink" href={item.link} rel="noopener noreferrer" target="_blank">
+                                <a key={item.title + item.link} className="ProjectItem-FooterLink" href={item.link} rel="noopener noreferrer" target="_blank">
                                     <FontAwesomeIcon className='ProjectItem-LinkIcon' icon={[item.awesomeFontLibrary, item.awesomeFontIcon]} />
                                     <div className="ProjectItem-LinkTitle">{item.title}</div>
                                 </a>
