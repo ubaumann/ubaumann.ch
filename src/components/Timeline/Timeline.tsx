@@ -1,17 +1,13 @@
-import React from 'react'
-import './Timeline.scss'
+import React from 'react';
+import './Timeline.scss';
 
 type TimelineProps = {
-    children?: React.ReactNode;
-}
+  children?: React.ReactNode;
+};
 
-const Timeline = (props: TimelineProps) => {
-    const {children} = props
-    return (
-        <div className='Timeline'>
-            {children}
-        </div>
-    )
-}
+const Timeline = (props: TimelineProps): JSX.Element => {
+  const { children } = props;
+  return <div className="Timeline">{children}</div>;
+};
 
-export default Timeline
+export default Timeline;

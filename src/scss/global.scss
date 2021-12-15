@@ -1,25 +1,25 @@
 .Tile {
-    width: 70rem;
-    margin: 4rem auto;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 2rem;
+  width: 70rem;
+  margin: 4rem auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 2rem;
 }
 
 .TileTitle {
-    text-align: start;
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
+  text-align: start;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: $breakpoint-one) {
-    .Tile {
-      width: 50rem;
-    }
+  .Tile {
+    width: 50rem;
+  }
 }
 
 @media screen and (max-width: $breakpoint-two) {
-    .Tile {
-      width: 20rem;
-    }
+  .Tile {
+    width: 20rem;
+  }
 }

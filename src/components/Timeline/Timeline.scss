@@ -1,86 +1,86 @@
 @import '../../scss/settings.scss';
 
 .Timeline {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .TimelineItem {
-    width: calc(50% + 1px);
+  width: calc(50% + 1px);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-top: 0rem;
+
+  &-Period {
+    background-color: #dadada;
+    color: #333;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    margin-top: -1rem;
+  }
+
+  &-Title {
     display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    padding-top: 0rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+  }
 
-    &-Period {
-        background-color: #dadada;
-        color: #333;
-        font-weight: bold;
-        border-radius: 0.25rem;
-        padding: 0.5rem 0.75rem;
-        margin-top: -1rem;
-    }
+  &-TitleIcon {
+    margin-right: 1rem;
+  }
 
-    &-Title {
-        display: flex;
-        font-size: 1.5rem;
-        font-weight: bolder;
-        margin: 1rem 0;
-    }
+  &-Dot {
+    background-color: #333;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+  }
 
-    &-TitleIcon {
-        margin-right: 1rem;
-    }
+  &:nth-child(2n - 1) {
+    align-self: flex-end;
+    align-items: flex-start;
+    text-align: start;
+    border-left: 2px solid #333;
 
-    &-Dot {
-        background-color: #333;
-        width: 1rem;
-        height: 1rem;
-        border-radius: 1rem;
+    & > .TimelineItem-Dot {
+      margin-left: calc(-2rem - 1px - 0.5rem);
     }
-    
-    &:nth-child(2n - 1) {
-        align-self: flex-end;
-        align-items: flex-start;
-        text-align: start;
-        border-left: 2px solid #333;
-        
-        & > .TimelineItem-Dot {
-            margin-left: calc(-2rem - 1px - 0.5rem);
-        }
-    }
-    
-    &:nth-child(2n) {
-        align-self: flex-start;
-        align-items: flex-end;
-        text-align: end;
-        border-right: 2px solid #333;
-        
-        & > .TimelineItem-Dot {
-            margin-right: calc(-2rem - 1px - 0.5rem);
-        }
-    }
+  }
 
-    &:last-child {
-        padding-bottom: 0rem;
+  &:nth-child(2n) {
+    align-self: flex-start;
+    align-items: flex-end;
+    text-align: end;
+    border-right: 2px solid #333;
+
+    & > .TimelineItem-Dot {
+      margin-right: calc(-2rem - 1px - 0.5rem);
     }
+  }
+
+  &:last-child {
+    padding-bottom: 0rem;
+  }
 }
 
 @media screen and (max-width: $breakpoint-two) {
-    .TimelineItem {
-        width: 100%;
-        padding-right: 0;
+  .TimelineItem {
+    width: 100%;
+    padding-right: 0;
 
-        &:nth-child(2n) {
-            align-self: flex-end;
-            align-items: flex-start;
-            text-align: start;
-            border-right: none;
-            border-left: 2px solid #333;
-            
-            & > .TimelineItem-Dot {
-                margin-left: calc(-2rem - 1px - 0.5rem);
-            }
-        }
+    &:nth-child(2n) {
+      align-self: flex-end;
+      align-items: flex-start;
+      text-align: start;
+      border-right: none;
+      border-left: 2px solid #333;
+
+      & > .TimelineItem-Dot {
+        margin-left: calc(-2rem - 1px - 0.5rem);
+      }
     }
+  }
 }

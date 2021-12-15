@@ -1,98 +1,98 @@
 @import '../../scss/settings.scss';
 
 .AboutMe {
-    margin-top: 35rem;
+  margin-top: 35rem;
+  display: flex;
+
+  &-About {
+    width: 50%;
+    padding-right: 1rem;
+    text-align: start;
+
+    & > p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &-Bio {
+    width: 50%;
     display: flex;
-    
-    &-About {
-        width: 50%;
-        padding-right: 1rem;
-        text-align: start;
+    padding-left: 1rem;
+    flex-direction: column;
 
-        & > p {
-            margin-bottom: 1rem;
-        }
-    }
-    
-    &-Bio {
-        width: 50%;
+    &-Item {
+      display: flex;
+      margin: 0.25rem 0;
+
+      &-Name {
         display: flex;
-        padding-left: 1rem;
-        flex-direction: column;
+        width: 30%;
+        text-align: start;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
 
-        &-Item {
-            display: flex;
-            margin: 0.25rem 0;
-
-            &-Name {
-                display: flex;
-                width: 30%;
-                text-align: start;
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-
-            &-Value {
-                width: 70%;
-                text-align: start;
-            }
-        }
-
-        &-IconContainer {
-            width: 1.3rem;
-            margin-right: 0.5rem;
-            opacity: 0.8;
-        }
-
-        &-Item:nth-child(2) {
-            margin-top: 0rem;
-        }
+      &-Value {
+        width: 70%;
+        text-align: start;
+      }
     }
+
+    &-IconContainer {
+      width: 1.3rem;
+      margin-right: 0.5rem;
+      opacity: 0.8;
+    }
+
+    &-Item:nth-child(2) {
+      margin-top: 0rem;
+    }
+  }
 }
 
 @media screen and (max-width: $breakpoint-one) {
-    .AboutMe {
-        &-Bio {
-            &-Item {
-                &-Name {
-                    width: 50%;
-                }
-    
-                &-Value {
-                    width: 50%;
-                }
-            }
+  .AboutMe {
+    &-Bio {
+      &-Item {
+        &-Name {
+          width: 50%;
         }
+
+        &-Value {
+          width: 50%;
+        }
+      }
     }
+  }
 }
 
 @media screen and (max-width: $breakpoint-two) {
-    .AboutMe {
-        flex-direction: column;
+  .AboutMe {
+    flex-direction: column;
 
-        &-About {
-            width: 100%;
-            padding-right: 0;
-        }
-
-        &-Bio {
-            width: 100%;
-            padding-left: 0;
-            margin-top: 1.5rem;
-
-            &-Item {
-                display: flex;
-                justify-content: space-between;
-
-                &-Name {
-                    width: 45%;
-                }
-    
-                &-Value {
-                    width: 50%;
-                    word-wrap: break-word;
-                }
-            }
-        }
+    &-About {
+      width: 100%;
+      padding-right: 0;
     }
+
+    &-Bio {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 1.5rem;
+
+      &-Item {
+        display: flex;
+        justify-content: space-between;
+
+        &-Name {
+          width: 45%;
+        }
+
+        &-Value {
+          width: 50%;
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
 }
