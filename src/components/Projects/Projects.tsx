@@ -17,7 +17,7 @@ const Projects = () => {
                 <ProjectItem period='2021 - Present' title='Jalapeño API Gateway' image={imgJagw} footerItems={[
                      {awesomeFontLibrary: 'fas', awesomeFontIcon: 'external-link-alt', title: 'Project', link: 'https://www.segment-routing.ch/projects/project-jagw/'},
                     ]}>
-                    <p className='ProjectItem-SpaceAfter'>Jalapeño is an cloud-native application developed by <a href='https://www.cisco.com/' rel="noopener noreferrer" target="_blank">Cisco Systems</a> that captures network topology and performance data made available through the Segment Routing technology.</p>
+                    <p className='ProjectItem-SpaceAfter'>Jalapeño is a cloud-native application developed by <a href='https://www.cisco.com/' rel="noopener noreferrer" target="_blank">Cisco Systems</a> that captures network topology and performance data made available through the Segment Routing technology.</p>
                     <p>With the help of Dominique Illi and Julian Klaiber I am developing an API Gateway in collaboration with Cisco for the use of future SR-Apps.</p>
                 </ProjectItem>
                 <ProjectItem period='2021' title='segment-routing.ch' image={imgSrWebsite} footerItems={[
@@ -31,7 +31,7 @@ const Projects = () => {
                      {awesomeFontLibrary: 'fab', awesomeFontIcon: 'youtube', title: 'Demo', link: 'https://www.youtube.com/watch?v=tMnpGJwYCNU'},
                     ]}>
                     <p className='ProjectItem-SpaceAfter'>The SR-App SerPro allows a user to program so-called steering policies in a Segment Routing network.</p>
-                    <p>The backend was developed by Julian Klaiber and Severin Dellsperger. William Wakelin and I developed the frontend (React) for this SR-App.</p>
+                    <p>The backend was developed by Julian Klaiber and Severin Dellsperger. With assistance from William Wakelin I developed the frontend (React) for this SR-App.</p>
                 </ProjectItem>
                 <ProjectItem period='2020' title='SR-App: Link Saturation Prediction' image={imgLspLqa} footerItems={[
                     {awesomeFontLibrary: 'fas', awesomeFontIcon: 'external-link-alt', title: 'Thesis', link: 'https://eprints.ost.ch/id/eprint/909/1/HS%202020%202021-BA-EP-Bongard-Illi-SR-App%20Analytics.pdf'},
