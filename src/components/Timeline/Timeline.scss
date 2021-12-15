@@ -22,9 +22,14 @@
     }
 
     &-Title {
+        display: flex;
         font-size: 1.5rem;
         font-weight: bolder;
         margin: 1rem 0;
+    }
+
+    &-TitleIcon {
+        margin-right: 1rem;
     }
 
     &-Dot {

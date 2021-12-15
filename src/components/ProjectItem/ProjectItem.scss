@@ -1,0 +1,168 @@
+@import '../../scss/settings.scss';
+
+.ProjectItem {
+    display: flex;
+
+    & a {
+        text-decoration: none;
+        color: #035397;
+    }
+
+    &-ImageContainer {
+        height: 15rem;
+        margin-right: 2rem;
+    }
+
+    &-Image {
+        width: inherit;
+        height: 100%;
+    }
+
+    &-Content {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        width: 100%;
+        text-align: start;
+    }
+
+    &-Header {
+        text-align: start;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 1rem 0;
+        line-height: 1.8rem;
+        text-align: start;
+    }
+
+    &-Footer {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 1.5rem;
+
+        & a {
+            color: #333;
+        }
+    }
+
+    &-Links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &-LinkIcon {
+        color: inherit;
+    }
+
+    &-LinkTitle {
+        color: inherit;
+    }
+
+    &-FooterLink {
+        margin-right: 1rem;
+        overflow: hidden;
+        width: 4.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        &:hover {
+            color: #035397;
+        }
+    }
+
+    &-Period {
+        background-color: #dadada;
+        color: #333;
+        font-weight: bold;
+        border-radius: 0.25rem;
+        padding: 0.5rem 0.75rem;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    &-SpaceAfter {
+        margin-bottom: 0.7rem;
+    }
+
+    &:nth-child(2n) {
+        flex-direction: row-reverse;
+
+        & .ProjectItem {
+            &-ImageContainer {
+                margin-left: 2rem;
+                margin-right: 0rem;
+            }
+
+            &-Links {
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-one) {
+    .ProjectItem {
+        &-ImageContainer {
+            height: 10rem;
+        }
+    }
+}
+@media screen and (max-width: $breakpoint-two) {
+    .ProjectItem {
+        flex-direction: column-reverse;
+
+        &-ImageContainer {
+            margin: 0rem;
+            margin-top: 1.5rem;
+            width: 100%;
+            height: fit-content;
+        }
+
+        &-Header {
+            margin-top: 0rem;
+        }
+
+        &-Footer {
+            flex-direction: column;
+        }
+
+        &-Links {
+            width: 100%;
+            justify-content: flex-end;
+            margin-bottom: 1rem;
+        }
+
+        &-FooterLink {
+            margin-left: 0.8rem;
+            margin-right: 0rem;
+        }
+
+        &:nth-child(2n) {
+            flex-direction: column-reverse;
+
+            & .ProjectItem {
+                &-ImageContainer {
+                    margin: 0rem;
+                    margin-top: 1.5rem;
+                }
+
+                &-Footer {
+                    flex-direction: column;
+                }
+
+                &-Links {
+                    width: 100%;
+                    justify-content: flex-end;
+                    margin-bottom: 1rem;
+                }
+
+                &-FooterLink {
+                    margin-left: 0.8rem;
+                }
+            }
+        }
+    }
+}

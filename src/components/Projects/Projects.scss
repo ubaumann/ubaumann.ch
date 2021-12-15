@@ -1,0 +1,12 @@
+.Projects {
+    &-Header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &-HeaderIcon {
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+    }
+}
