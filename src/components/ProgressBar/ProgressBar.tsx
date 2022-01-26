@@ -1,5 +1,5 @@
 import './ProgressBar.scss';
-import React from 'react';
+import { data } from '../../assets/data';
 
 type ProgressBarProps = {
   cssClass: string;
@@ -8,18 +8,6 @@ type ProgressBarProps = {
   imageAlt?: string;
   progress: number;
 };
-
-const SkillLevels = Object.freeze({
-  Novice: 'Novice',
-  Proficient: 'Proficient',
-  Expert: 'Expert',
-});
-
-const SkillThresholds = Object.freeze({
-  Novice: 50,
-  Proficient: 75,
-  Expert: 100,
-});
 
 const ProgressBar = (props: ProgressBarProps): JSX.Element => {
   const { cssClass, name, image, imageAlt, progress } = props;
@@ -45,9 +33,15 @@ const buildClassName = (cn: string, cssClass: string): string => {
 };
 
 const getSkillLevel = (progress: number): string => {
-  if (progress < SkillThresholds.Novice) return SkillLevels.Novice;
-  if (progress < SkillThresholds.Proficient) return SkillLevels.Proficient;
-  return SkillLevels.Expert;
+  for (let i = 0; i < data.skillLevels.length; i++) {
+    if (
+      progress >= data.skillLevels[i].fromProgress &&
+      progress <= data.skillLevels[i].upToProgress
+    ) {
+      return data.skillLevels[i].name;
+    }
+  }
+  return '';
 };
 
 export default ProgressBar;

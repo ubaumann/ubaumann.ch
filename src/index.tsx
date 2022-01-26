@@ -1,4 +1,4 @@
-import './assets/fontawesome/fontawesome';
+import './util/fontawesome/fontawesome';
 import ReactDOM from 'react-dom';
 import './scss/index.scss';
 import React from 'react';

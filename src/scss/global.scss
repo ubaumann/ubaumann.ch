@@ -12,6 +12,16 @@
   margin-bottom: 2rem;
 }
 
+a {
+  text-decoration: none;
+  color: var(--theme);
+
+  &:hover {
+    cursor: pointer;
+    color: var(--black);
+  }
+}
+
 @media screen and (max-width: $breakpoint-one) {
   .Tile {
     width: 50rem;

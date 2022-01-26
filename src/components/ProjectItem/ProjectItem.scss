@@ -5,7 +5,7 @@
 
   & a {
     text-decoration: none;
-    color: #035397;
+    color: var(--theme);
   }
 
   &-ImageContainer {
@@ -43,7 +43,7 @@
     margin-top: 1.5rem;
 
     & a {
-      color: #333;
+      color: var(--black);
     }
   }
 

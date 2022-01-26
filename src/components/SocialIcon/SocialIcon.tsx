@@ -1,27 +1,27 @@
-import React from 'react';
 import './SocialIcon.scss';
-import { IconName, IconPrefix } from '@fortawesome/fontawesome-common-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+
+import { SocialIcon as SocialIconModel } from '../../model';
 
 type SocialIconProps = {
-  link: string;
-  awesomeFontLibrary: IconPrefix;
-  awesomeFontIcon: IconName;
+  icon: SocialIconModel;
 };
 
 const SocialIcon = (props: SocialIconProps): JSX.Element => {
-  const { link, awesomeFontLibrary, awesomeFontIcon } = props;
+  const { icon } = props;
   return (
     <a
       className="SocialIcon"
-      href={link}
+      href={icon.link}
       rel="noopener noreferrer"
       target="_blank"
     >
       <FontAwesomeIcon
         className="SocialIcon-Icon"
-        icon={[awesomeFontLibrary, awesomeFontIcon]}
+        icon={icon.awesomeFontIcon as IconProp}
       />
+      <span className="SocialIcon-Tooltip">{icon.name}</span>
     </a>
   );
 };

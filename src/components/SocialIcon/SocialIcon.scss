@@ -1,12 +1,13 @@
 .SocialIcon {
+  position: relative;
   width: 3rem;
   height: 3rem;
   border-radius: 2rem;
-  background-color: #aaa;
+  background-color: var(--dark-grey);
   margin: 0rem 0.25rem;
 
   &-Icon {
-    color: white;
+    color: var(--white);
     width: 100%;
     height: 100%;
     font-size: 1.4rem;
@@ -14,6 +15,23 @@
   }
 
   &:hover {
-    background-color: #035397;
+    background-color: var(--theme);
+  }
+
+  &-Tooltip {
+    width: 30rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    visibility: hidden;
+    padding: 1rem 0.75rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: -13.5rem;
+  }
+
+  &:hover &-Tooltip {
+    visibility: visible;
   }
 }

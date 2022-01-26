@@ -19,6 +19,8 @@
     display: flex;
     padding-left: 1rem;
     flex-direction: column;
+    overflow: hidden;
+    word-wrap: break-word;
 
     &-Item {
       display: flex;

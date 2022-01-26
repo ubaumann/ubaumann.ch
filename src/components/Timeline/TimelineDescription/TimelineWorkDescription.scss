@@ -2,9 +2,10 @@
   &-Employer {
     margin-bottom: 1rem;
 
-    & > a {
+    & > a,
+    & > div {
       text-align: inherit;
-      background-color: #035397;
+      background-color: var(--theme);
       color: white;
       padding: 0.25rem 0.5rem;
       border-radius: 0.25rem;

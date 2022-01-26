@@ -1,26 +1,21 @@
 import React from 'react';
 import './ProjectItem.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconName, IconPrefix } from '@fortawesome/fontawesome-common-types';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
-type FooterItem = {
-  awesomeFontLibrary: IconPrefix;
-  awesomeFontIcon: IconName;
-  title: string;
-  link: string;
-};
+import { ProjectLink } from '../../model';
 
 type ProjectItemProps = {
   period: string;
   title: string;
   image: string;
   imageAlt?: string;
-  footerItems?: FooterItem[];
+  projectLinks?: ProjectLink[];
   children?: React.ReactNode;
 };
 
 const ProjectItem = (props: ProjectItemProps): JSX.Element => {
-  const { period, title, image, imageAlt, footerItems, children } = props;
+  const { period, title, image, imageAlt, projectLinks, children } = props;
 
   return (
     <div className="ProjectItem Tile">
@@ -32,10 +27,10 @@ const ProjectItem = (props: ProjectItemProps): JSX.Element => {
         {children}
         <div className="ProjectItem-Footer">
           <div className="ProjectItem-Links">
-            {footerItems?.map((item) => {
+            {projectLinks?.map((item) => {
               return (
                 <a
-                  key={item.title + item.link}
+                  key={item.name + item.link}
                   className="ProjectItem-FooterLink"
                   href={item.link}
                   rel="noopener noreferrer"
@@ -43,9 +38,9 @@ const ProjectItem = (props: ProjectItemProps): JSX.Element => {
                 >
                   <FontAwesomeIcon
                     className="ProjectItem-LinkIcon"
-                    icon={[item.awesomeFontLibrary, item.awesomeFontIcon]}
+                    icon={item.awesomeFontIcon as IconProp}
                   />
-                  <div className="ProjectItem-LinkTitle">{item.title}</div>
+                  <div className="ProjectItem-LinkTitle">{item.name}</div>
                 </a>
               );
             })}

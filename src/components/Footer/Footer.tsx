@@ -1,27 +1,16 @@
 import './Footer.scss';
 import SocialIcon from '../SocialIcon/SocialIcon';
+import { data } from '../../assets/data';
 
 const Footer = (): JSX.Element => {
   return (
     <div className="Footer">
       <div className="Footer-Icons">
-        <SocialIcon
-          link="https://github.com/mbongard"
-          awesomeFontLibrary="fab"
-          awesomeFontIcon="github"
-        />
-        <SocialIcon
-          link="https://www.linkedin.com/in/michel-bongard-70792564/"
-          awesomeFontLibrary="fab"
-          awesomeFontIcon="linkedin"
-        />
-        <SocialIcon
-          link="mailto:mail@michelbongard.ch"
-          awesomeFontLibrary="fas"
-          awesomeFontIcon="envelope"
-        />
+        {data.socialIcons.map((icon, i) => {
+          return <SocialIcon key={i} icon={icon} />;
+        })}
       </div>
-      <div className="Footer-Name">Michel Bongard</div>
+      <div className="Footer-Name">{data.title}</div>
       <div className="Footer-Info">
         Built with{' '}
         <a
