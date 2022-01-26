@@ -1,6 +1,13 @@
+@import '../../scss/settings.scss';
+
 .Projects {
+  margin-bottom: 5rem;
+
   & .TileTitle {
     font-size: 3rem;
+    line-height: 3rem;
+    margin: auto;
+    margin-bottom: 4rem;
   }
 
   &-Header {
@@ -12,6 +19,32 @@
   &-HeaderIcon {
     font-size: 2rem;
     margin-top: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: 3rem;
+  }
+
+  &-List {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin: auto;
+    width: 70rem;
+  }
+}
+
+@media screen and (max-width: $breakpoint-one) {
+  .Projects {
+    &-List {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      width: 50rem;
+    }
+  }
+}
+@media screen and (max-width: $breakpoint-two) {
+  .Projects {
+    &-List {
+      width: 20rem;
+    }
   }
 }

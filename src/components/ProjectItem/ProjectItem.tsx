@@ -22,32 +22,28 @@ const ProjectItem = (props: ProjectItemProps): JSX.Element => {
       <div className="ProjectItem-ImageContainer">
         <img className="ProjectItem-Image" src={image} alt={imageAlt} />
       </div>
-      <div className="ProjectItem-Content">
-        <div className="ProjectItem-Header">{title}</div>
-        {children}
-        <div className="ProjectItem-Footer">
-          <div className="ProjectItem-Links">
-            {projectLinks?.map((item) => {
-              return (
-                <a
-                  key={item.name + item.link}
-                  className="ProjectItem-FooterLink"
-                  href={item.link}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon
-                    className="ProjectItem-LinkIcon"
-                    icon={item.awesomeFontIcon as IconProp}
-                  />
-                  <div className="ProjectItem-LinkTitle">{item.name}</div>
-                </a>
-              );
-            })}
-          </div>
-          <div className="ProjectItem-Period">{period}</div>
-        </div>
+      <div className="ProjectItem-Header">{title}</div>
+      <div className="ProjectItem-Description">{children}</div>
+      <div className="ProjectItem-Links">
+        {projectLinks?.map((item) => {
+          return (
+            <a
+              key={item.name + item.link}
+              className="ProjectItem-FooterLink"
+              href={item.link}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                className="ProjectItem-LinkIcon"
+                icon={item.awesomeFontIcon as IconProp}
+              />
+              <div className="ProjectItem-LinkTitle">{item.name}</div>
+            </a>
+          );
+        })}
       </div>
+      <div className="ProjectItem-Period">{period}</div>
     </div>
   );
 };

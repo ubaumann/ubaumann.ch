@@ -1,7 +1,15 @@
 @import '../../scss/settings.scss';
 
 .ProjectItem {
-  display: flex;
+  width: auto;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 3fr 3fr 1.5fr;
+  grid-template-areas:
+    'image title title'
+    'image text text'
+    'image links period';
+  gap: 1rem 2rem;
 
   & a {
     text-decoration: none;
@@ -9,47 +17,49 @@
   }
 
   &-ImageContainer {
-    height: 15rem;
-    margin-right: 2rem;
+    grid-area: image;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &-Image {
-    width: inherit;
-    height: 100%;
-  }
-
-  &-Content {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
+    height: 12rem;
     width: 100%;
-    text-align: start;
+    object-fit: contain;
+    border-radius: 0.5rem;
   }
 
   &-Header {
+    grid-area: title;
     text-align: start;
     font-size: 2rem;
     font-weight: 700;
-    margin: 1rem 0;
+    margin: 0;
     line-height: 1.8rem;
+    text-align: start;
+    height: fit-content;
+  }
+
+  &-Description {
+    grid-area: text;
     text-align: start;
   }
 
-  &-Footer {
+  &-Links {
+    grid-area: links;
     display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    height: fit-content;
 
     & a {
       color: var(--black);
-    }
-  }
 
-  &-Links {
-    display: flex;
-    flex-wrap: wrap;
+      &:hover {
+        color: var(--theme);
+      }
+    }
   }
 
   &-LinkIcon {
@@ -61,108 +71,71 @@
   }
 
   &-FooterLink {
-    margin-right: 1rem;
     overflow: hidden;
     width: 4.5rem;
+    height: fit-content;
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color: var(--black);
 
     &:hover {
-      color: #035397;
+      color: var(--theme);
     }
   }
 
   &-Period {
-    background-color: #dadada;
-    color: #333;
+    grid-area: period;
+    background-color: var(--grey);
+    color: var(--black);
     font-weight: bold;
     border-radius: 0.25rem;
     padding: 0.5rem 0.75rem;
     width: fit-content;
     height: fit-content;
+    margin: auto;
+    margin-right: 0rem;
   }
 
   &-SpaceAfter {
     margin-bottom: 0.7rem;
   }
 
-  &:nth-child(2n) {
-    flex-direction: row-reverse;
-
-    & .ProjectItem {
-      &-ImageContainer {
-        margin-left: 2rem;
-        margin-right: 0rem;
-      }
-
-      &-Links {
-        justify-content: flex-end;
-      }
-    }
-  }
+  // &:nth-child(2n) {
+  //   grid-template-columns: 3fr 1.5fr 3fr;
+  //   grid-template-areas:
+  //     'title title image'
+  //     'text text image'
+  //     'links period image';
+  // }
 }
 
 @media screen and (max-width: $breakpoint-one) {
   .ProjectItem {
-    &-ImageContainer {
-      height: 10rem;
-    }
+    grid-template-columns: 4fr 3fr 2fr;
   }
 }
+
 @media screen and (max-width: $breakpoint-two) {
   .ProjectItem {
-    flex-direction: column-reverse;
+    grid-template-columns: auto;
+    grid-template-areas:
+      'title title'
+      'image image'
+      'period period'
+      'text text'
+      'links links';
 
     &-ImageContainer {
-      margin: 0rem;
-      margin-top: 1.5rem;
-      width: 100%;
-      height: fit-content;
-    }
-
-    &-Header {
-      margin-top: 0rem;
-    }
-
-    &-Footer {
-      flex-direction: column;
+      width: fit-content;
     }
 
     &-Links {
-      width: 100%;
-      justify-content: flex-end;
-      margin-bottom: 1rem;
+      flex-direction: row-reverse;
     }
 
-    &-FooterLink {
-      margin-left: 0.8rem;
-      margin-right: 0rem;
-    }
-
-    &:nth-child(2n) {
-      flex-direction: column-reverse;
-
-      & .ProjectItem {
-        &-ImageContainer {
-          margin: 0rem;
-          margin-top: 1.5rem;
-        }
-
-        &-Footer {
-          flex-direction: column;
-        }
-
-        &-Links {
-          width: 100%;
-          justify-content: flex-end;
-          margin-bottom: 1rem;
-        }
-
-        &-FooterLink {
-          margin-left: 0.8rem;
-        }
-      }
+    &-Period {
+      margin: auto;
+      margin-left: 0rem;
     }
   }
 }

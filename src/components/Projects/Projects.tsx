@@ -10,10 +10,6 @@ const Projects = (): JSX.Element => {
     <div className="Projects">
       <div className="Projects-Header">
         <div className="TileTitle">Projects</div>
-        <FontAwesomeIcon
-          className="Projects-HeaderIcon"
-          icon={['fas', 'arrow-down']}
-        />
       </div>
       <div className="Projects-List">
         {data.projects.map((p, i) => {
