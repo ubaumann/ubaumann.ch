@@ -56,12 +56,14 @@
   .AboutMe {
     &-Bio {
       &-Item {
+        flex-direction: column;
         &-Name {
-          width: 50%;
+          width: 100%;
         }
 
         &-Value {
-          width: 50%;
+          width: 100%;
+          margin: 0.25rem auto 1rem auto;
         }
       }
     }
@@ -81,20 +83,6 @@
       width: 100%;
       padding-left: 0;
       margin-top: 1.5rem;
-
-      &-Item {
-        display: flex;
-        justify-content: space-between;
-
-        &-Name {
-          width: 45%;
-        }
-
-        &-Value {
-          width: 50%;
-          word-wrap: break-word;
-        }
-      }
     }
   }
 }
