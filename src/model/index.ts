@@ -7,6 +7,7 @@ import { Project as Project_, ProjectLink as ProjectLink_ } from './Project';
 import { Skill as Skill_ } from './Skill';
 import { SkillLevel as SkillLevel_ } from './SkillLevel';
 import { SocialIcon as SocialIcon_ } from './SocialIcon';
+import { Certificate as Certificate_ } from './Certificate';
 
 export type Data = Data_;
 export type AboutMe = AboutMe_;
@@ -19,3 +20,4 @@ export type ProjectLink = ProjectLink_;
 export type Skill = Skill_;
 export type SkillLevel = SkillLevel_;
 export type SocialIcon = SocialIcon_;
+export type Certificate = Certificate_;

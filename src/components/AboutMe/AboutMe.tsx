@@ -16,7 +16,7 @@ const AboutMe = (): JSX.Element => {
   };
 
   return (
-    <div className="AboutMe Tile">
+    <div className="AboutMe Tile Section">
       <div className="AboutMe-About">
         <div className="TileTitle">About Me</div>
         {data.aboutMe.paragraphs.map((p, i) => {

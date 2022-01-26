@@ -4,6 +4,7 @@ import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
+import Certificates from './components/Certificates/Certificates';
 
 function App(): JSX.Element {
   return (
@@ -11,6 +12,7 @@ function App(): JSX.Element {
       <Banner />
       <AboutMe />
       <Skills />
+      <Certificates />
       <Experience />
       <Projects />
       <Footer />

@@ -17,6 +17,7 @@ import jagwImg from './img/projects/project-jagw.png';
 import serproImg from './img/projects/project-serpro.png';
 import srWebsiteImg from './img/projects/project-sr-website.png';
 import lspLqaImg from './img/projects/project-lsp-lqa.png';
+import ckaImg from './img/certificates/cka.png';
 
 export const data: Data = {
   title: 'Michel Bongard',
@@ -143,6 +144,15 @@ export const data: Data = {
       name: 'Expert',
       fromProgress: 75,
       upToProgress: 100,
+    },
+  ],
+  certificates: [
+    {
+      name: 'CKA: Certified Kubernetes Administrator',
+      img: ckaImg,
+      certificateId: 'LF-043zxk8x7s',
+      digitalBadge:
+        'https://www.credly.com/badges/24b03699-38a4-41f4-8cd5-a7165dd8292a',
     },
   ],
   experiences: [

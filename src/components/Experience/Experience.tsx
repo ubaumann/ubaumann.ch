@@ -6,26 +6,28 @@ import { data } from '../../assets/data';
 
 const Experience = (): JSX.Element => {
   return (
-    <div className="Experience Tile">
+    <div className="Section">
       <div className="TileTitle">Experience</div>
-      <Timeline>
-        {data.experiences.map((e, i) => {
-          return (
-            <TimelineItem
-              key={'AboutMe-' + i}
-              period={e.period}
-              title={e.title}
-            >
-              <TimelineWorkDescription
-                employer={e.employer}
-                employerLink={e.employerLink}
-                employmentRate={e.employmentRate}
-                paragraphs={e.paragraphs}
-              />
-            </TimelineItem>
-          );
-        })}
-      </Timeline>
+      <div className="Experience Tile">
+        <Timeline>
+          {data.experiences.map((e, i) => {
+            return (
+              <TimelineItem
+                key={'AboutMe-' + i}
+                period={e.period}
+                title={e.title}
+              >
+                <TimelineWorkDescription
+                  employer={e.employer}
+                  employerLink={e.employerLink}
+                  employmentRate={e.employmentRate}
+                  paragraphs={e.paragraphs}
+                />
+              </TimelineItem>
+            );
+          })}
+        </Timeline>
+      </div>
     </div>
   );
 };

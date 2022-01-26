@@ -7,7 +7,7 @@ import Paragraph from '../Paragraph/Paragraph';
 
 const Projects = (): JSX.Element => {
   return (
-    <div className="Projects">
+    <div className="Projects Section">
       <div className="Projects-Header">
         <div className="TileTitle">Projects</div>
       </div>

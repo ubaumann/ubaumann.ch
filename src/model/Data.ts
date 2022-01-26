@@ -1,6 +1,7 @@
 import {
   AboutMe,
   Bio,
+  Certificate,
   Experience,
   Project,
   Skill,
@@ -20,6 +21,7 @@ export interface Data {
   socialIcons: SocialIcon[];
   skills: Skill[];
   skillLevels: SkillLevel[];
+  certificates: Certificate[];
   experiences: Experience[];
   projects: Project[];
 }

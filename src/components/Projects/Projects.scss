@@ -3,25 +3,6 @@
 .Projects {
   margin-bottom: 5rem;
 
-  & .TileTitle {
-    font-size: 3rem;
-    line-height: 3rem;
-    margin: auto;
-    margin-bottom: 4rem;
-  }
-
-  &-Header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  &-HeaderIcon {
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-  }
-
   &-List {
     display: grid;
     grid-template-columns: 1fr;
