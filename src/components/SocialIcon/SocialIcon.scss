@@ -1,3 +1,5 @@
+@import '../../scss/settings.scss';
+
 .SocialIcon {
   position: relative;
   width: 3rem;
@@ -19,19 +21,27 @@
   }
 
   &-Tooltip {
-    width: 30rem;
+    color: var(--theme);
+    width: 10rem;
     margin: auto;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     visibility: hidden;
-    padding: 1rem 0.75rem;
     border-radius: 0.5rem;
     position: absolute;
     top: 0;
     z-index: 2;
-    left: -13.5rem;
+    left: calc(-5rem + 1.5rem);
   }
 
   &:hover &-Tooltip {
     visibility: visible;
+  }
+}
+
+@media screen and (max-width: $breakpoint-two) {
+  .SocialIcon {
+    &-Tooltip {
+      display: none;
+    }
   }
 }
