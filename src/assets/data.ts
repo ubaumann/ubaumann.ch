@@ -63,7 +63,7 @@ export const data: Data = {
     },
     {
       name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/michel-bongard-70792564/',
+      link: 'https://www.linkedin.com/in/michel-bongard',
       awesomeFontIcon: ['fab', 'linkedin'],
     },
     {
