@@ -4,6 +4,10 @@
   margin-top: 35rem;
   display: flex;
 
+  & .TileTitle {
+    margin-top: 0.5rem;
+  }
+
   &-About {
     width: 50%;
     padding-right: 1rem;
