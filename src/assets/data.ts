@@ -253,7 +253,7 @@ export const data: Data = {
         {
           spanItems: [
             {
-              text: 'In July 2021 I developed and deployed the website ',
+              text: 'In July 2021 I developed the website ',
               link: null,
             },
             {
