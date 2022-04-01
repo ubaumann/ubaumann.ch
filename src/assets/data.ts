@@ -157,6 +157,23 @@ export const data: Data = {
   ],
   experiences: [
     {
+      period: 'April 2022 - Today',
+      title: 'Software Engineer',
+      employer: 'Hostpoint AG',
+      employerLink: 'https://www.hostpoint.ch/',
+      employmentRate: '100%',
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'Full-stack software engineer (Java, Angular)',
+              link: null,
+            },
+          ],
+        },
+      ],
+    },
+    {
       period: 'April 2021 - Today',
       title: 'Assistant, Software Engineer',
       employer: 'INS Institute for Networked Solutions',
@@ -167,31 +184,6 @@ export const data: Data = {
           spanItems: [
             {
               text: 'Assistant to the professors in the field of computer networks and full-stack software engineer for network applications (mostly in Segment Routing in collaboration with Cisco Systems, Inc.).',
-              link: null,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      period: 'April 2017 - Today',
-      title: 'Web-Administrator',
-      employer: 'Verein GemeinsamStark',
-      employerLink: 'https://gemeinsamstark.ch/',
-      employmentRate: '<5%',
-      paragraphs: [
-        {
-          spanItems: [
-            {
-              text: 'Administrator for Wordpress website ',
-              link: null,
-            },
-            {
-              text: 'www.gemeinsamstark.ch',
-              link: 'www.gemeinsamstark.ch',
-            },
-            {
-              text: '.',
               link: null,
             },
           ],
