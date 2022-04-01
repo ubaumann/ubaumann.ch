@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import './Projects.scss';
 import ProjectItem from '../ProjectItem/ProjectItem';
 import { data } from '../../assets/data';
