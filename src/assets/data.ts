@@ -166,7 +166,7 @@ export const data: Data = {
         {
           spanItems: [
             {
-              text: 'Full-stack software engineer (Java, Angular)',
+              text: 'Full-stack software engineer (Java, Angular).',
               link: null,
             },
           ],
