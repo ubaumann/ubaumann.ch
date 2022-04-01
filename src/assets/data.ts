@@ -174,7 +174,7 @@ export const data: Data = {
       ],
     },
     {
-      period: 'April 2021 - Today',
+      period: 'April 2021 - March 2022',
       title: 'Assistant, Software Engineer',
       employer: 'INS Institute for Networked Solutions',
       employerLink: 'https://www.ins.hsr.ch/',
