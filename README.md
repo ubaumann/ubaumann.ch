@@ -4,7 +4,13 @@ This is the github-pages repository for the website <a href="https://michelbonga
 
 Built with React.
 
-### To start the application locally, run:
+## Running the app locally
 
-- `yarn install`
-- `yarn start`
+To run the application locally, make sure you have [yarn](https://classic.yarnpkg.com/lang/en/docs/install/) installed on your machine.
+Then run the following commands:
+```bash
+yarn
+yarn start
+```
+
+The website will be available at http://localhost:3000/.
