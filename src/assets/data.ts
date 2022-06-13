@@ -5,6 +5,7 @@ import bannerImg from './img/banner.jpg';
 import htmlLogo from './img/technologies/html.png';
 import sassLogo from './img/technologies/sass.png';
 import typescriptLogo from './img/technologies/typescript.png';
+import angularLogo from './img/technologies/angular.png';
 import reactLogo from './img/technologies/react.png';
 import dotnetLogo from './img/technologies/dotnet.png';
 import csharpLogo from './img/technologies/csharp.png';
@@ -39,7 +40,7 @@ export const data: Data = {
       {
         spanItems: [
           {
-            text: 'I am currently working at Hostpoint AG, where I am employed as a full-stack software engineer working with Java and Angular.',
+            text: 'I am currently working at ',
             link: null,
           },
           {
@@ -99,7 +100,7 @@ export const data: Data = {
     {
       name: 'Angular',
       progress: 40,
-      img: reactLogo,
+      img: angularLogo,
     },
     {
       name: 'React',
