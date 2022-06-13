@@ -114,12 +114,12 @@ export const data: Data = {
     },
     {
       name: 'C#',
-      progress: 80,
+      progress: 60,
       img: csharpLogo,
     },
     {
       name: 'Java',
-      progress: 50,
+      progress: 40,
       img: javaLogo,
     },
     {
