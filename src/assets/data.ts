@@ -39,7 +39,15 @@ export const data: Data = {
       {
         spanItems: [
           {
-            text: 'I am currently working at the INS Institute for Networked Solutions at the OST – Eastern Switzerland University of Applied Sciences. Here, I am employed as a full-stack software engineer for network applications (mainly in the field of Segment Routing) and as an assistant to the professors.',
+            text: 'I am currently working at Hostpoint AG, where I am employed as a full-stack software engineer working with Java and Angular.',
+            link: null,
+          },
+          {
+            text: 'Hostpoint AG',
+            link: 'https://www.hostpoint.ch/',
+          },
+          {
+            text: ', where I am employed as a full-stack software engineer working with Java and Angular.',
             link: null,
           },
         ],
@@ -87,6 +95,11 @@ export const data: Data = {
       name: 'Typescript',
       progress: 60,
       img: typescriptLogo,
+    },
+    {
+      name: 'Angular',
+      progress: 40,
+      img: reactLogo,
     },
     {
       name: 'React',
