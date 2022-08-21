@@ -104,7 +104,7 @@ export const data: Data = {
     },
     {
       name: 'React',
-      progress: 50,
+      progress: 60,
       img: reactLogo,
     },
     {
