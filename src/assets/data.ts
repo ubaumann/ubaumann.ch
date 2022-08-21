@@ -48,7 +48,7 @@ export const data: Data = {
             link: 'https://www.hostpoint.ch/',
           },
           {
-            text: ', where I am employed as a full-stack software engineer working with Java and Angular.',
+            text: ', where I am employed as a full-stack software engineer working with Angular and Java.',
             link: null,
           },
         ],
