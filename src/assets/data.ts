@@ -94,12 +94,12 @@ export const data: Data = {
     },
     {
       name: 'Typescript',
-      progress: 60,
+      progress: 70,
       img: typescriptLogo,
     },
     {
       name: 'Angular',
-      progress: 40,
+      progress: 70,
       img: angularLogo,
     },
     {
@@ -114,7 +114,7 @@ export const data: Data = {
     },
     {
       name: 'C#',
-      progress: 60,
+      progress: 50,
       img: csharpLogo,
     },
     {
@@ -139,7 +139,7 @@ export const data: Data = {
     },
     {
       name: 'Kubernetes',
-      progress: 70,
+      progress: 60,
       img: kubernetesLogo,
     },
   ],
