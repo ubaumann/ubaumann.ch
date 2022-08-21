@@ -84,12 +84,12 @@ export const data: Data = {
   skills: [
     {
       name: 'HTML',
-      progress: 80,
+      progress: 90,
       img: htmlLogo,
     },
     {
       name: 'SCSS',
-      progress: 80,
+      progress: 90,
       img: sassLogo,
     },
     {
