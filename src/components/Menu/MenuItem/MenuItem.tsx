@@ -6,7 +6,7 @@ type MenuItemProps = {
 const MenuItem = (props: MenuItemProps): JSX.Element => {
   const { link, name } = props;
   return (
-    <a className="MenuItem" href={link}>
+    <a className="MenuItem" href={link} target="_blank" rel="noopener noreferrer">
       {name}
     </a>
   );
