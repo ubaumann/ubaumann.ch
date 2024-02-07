@@ -9,9 +9,11 @@ import javaLogo from './img/technologies/java.png';
 import pythonLogo from './img/technologies/python.png';
 import dockerLogo from './img/technologies/docker.png';
 import kubernetesLogo from './img/technologies/kubernetes.png';
+import gradleLogo from './img/technologies/gradle.png';
+import postgresLogo from './img/technologies/postgres.png';
+import springLogo from './img/technologies/spring.png';
 import jagwImg from './img/projects/project-jagw.png';
 import serproImg from './img/projects/project-serpro.png';
-import srWebsiteImg from './img/projects/project-sr-website.png';
 import lspLqaImg from './img/projects/project-lsp-lqa.png';
 import ckaImg from './img/certificates/cka.png';
 
@@ -103,7 +105,7 @@ export const data: Data = {
   skills: [
     {
       name: 'Typescript',
-      progress: 70,
+      progress: 90,
       img: typescriptLogo,
     },
     {
@@ -113,7 +115,7 @@ export const data: Data = {
     },
     {
       name: 'React',
-      progress: 70,
+      progress: 80,
       img: reactLogo,
     },
     {
@@ -122,18 +124,33 @@ export const data: Data = {
       img: javaLogo,
     },
     {
+      name: 'Spring',
+      progress: 60,
+      img: springLogo,
+    },
+    {
+      name: 'Gradle',
+      progress: 70,
+      img: gradleLogo,
+    },
+    {
+      name: 'PostgreSQL',
+      progress: 70,
+      img: postgresLogo,
+    },
+    {
       name: 'Python',
       progress: 30,
       img: pythonLogo,
     },
     {
       name: 'Docker',
-      progress: 70,
+      progress: 80,
       img: dockerLogo,
     },
     {
       name: 'Kubernetes',
-      progress: 40,
+      progress: 50,
       img: kubernetesLogo,
     },
   ],
