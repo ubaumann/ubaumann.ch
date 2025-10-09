@@ -16,7 +16,7 @@ import netacadImg from './img/certificates/netacad.png';
 
 export const data: Data = {
   title: 'Urs Baumann',
-  subtitle: 'Network Automation Prophet',
+  subtitle: 'Network Automation Expert',
   bannerImg: bannerImg,
   bannerImgAlt: 'Cisco Router Tokenring Card',
   profileImg: profileImg,
@@ -26,7 +26,7 @@ export const data: Data = {
       {
         spanItems: [
           {
-            text: 'Hi, I am Urs, a network automation prophet from Switzerland.',
+            text: 'Hi, I am Urs, a network automation expert from Switzerland.',
             link: null,
           },
         ],
