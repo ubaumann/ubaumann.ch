@@ -2,21 +2,18 @@ import { Data } from '../model';
 
 import profileImg from './img/profileImage.jpg';
 import bannerImg from './img/banner.jpg';
-import htmlLogo from './img/technologies/html.png';
-import sassLogo from './img/technologies/sass.png';
 import typescriptLogo from './img/technologies/typescript.png';
 import angularLogo from './img/technologies/angular.png';
 import reactLogo from './img/technologies/react.png';
-import dotnetLogo from './img/technologies/dotnet.png';
-import csharpLogo from './img/technologies/csharp.png';
 import javaLogo from './img/technologies/java.png';
-import golangLogo from './img/technologies/golang.png';
-import grpcLogo from './img/technologies/grpc.png';
+import pythonLogo from './img/technologies/python.png';
 import dockerLogo from './img/technologies/docker.png';
 import kubernetesLogo from './img/technologies/kubernetes.png';
+import gradleLogo from './img/technologies/gradle.png';
+import postgresLogo from './img/technologies/postgres.png';
+import springLogo from './img/technologies/spring.png';
 import jagwImg from './img/projects/project-jagw.png';
 import serproImg from './img/projects/project-serpro.png';
-import srWebsiteImg from './img/projects/project-sr-website.png';
 import lspLqaImg from './img/projects/project-lsp-lqa.png';
 import ckaImg from './img/certificates/cka.png';
 
@@ -53,6 +50,30 @@ export const data: Data = {
           },
         ],
       },
+      {
+        spanItems: [
+          {
+            text: 'I am also a Co-Founder of ',
+            link: null,
+          },
+          {
+            text: 'rappicode GmbH',
+            link: 'https://rappicode.com/',
+          },
+          {
+            text: ', where we specialize on the development of Atlassian apps. The apps can be installed directly from the ',
+            link: null,
+          },
+          {
+            text: 'Atlassian marketplace',
+            link: 'https://marketplace.atlassian.com/vendors/1224179/rappicode',
+          },
+          {
+            text: '.',
+            link: null,
+          },
+        ],
+      },
     ],
   },
   bio: {
@@ -83,63 +104,53 @@ export const data: Data = {
   ],
   skills: [
     {
-      name: 'HTML',
-      progress: 90,
-      img: htmlLogo,
-    },
-    {
-      name: 'SCSS',
-      progress: 90,
-      img: sassLogo,
-    },
-    {
       name: 'Typescript',
-      progress: 70,
+      progress: 90,
       img: typescriptLogo,
     },
     {
       name: 'Angular',
-      progress: 70,
+      progress: 80,
       img: angularLogo,
     },
     {
       name: 'React',
-      progress: 60,
+      progress: 80,
       img: reactLogo,
     },
     {
-      name: '.NET',
-      progress: 40,
-      img: dotnetLogo,
-    },
-    {
-      name: 'C#',
-      progress: 50,
-      img: csharpLogo,
-    },
-    {
       name: 'Java',
-      progress: 40,
+      progress: 80,
       img: javaLogo,
     },
     {
-      name: 'Golang',
-      progress: 50,
-      img: golangLogo,
+      name: 'Spring',
+      progress: 60,
+      img: springLogo,
     },
     {
-      name: 'gRPC',
-      progress: 60,
-      img: grpcLogo,
+      name: 'Gradle',
+      progress: 70,
+      img: gradleLogo,
+    },
+    {
+      name: 'PostgreSQL',
+      progress: 70,
+      img: postgresLogo,
+    },
+    {
+      name: 'Python',
+      progress: 30,
+      img: pythonLogo,
     },
     {
       name: 'Docker',
-      progress: 70,
+      progress: 80,
       img: dockerLogo,
     },
     {
       name: 'Kubernetes',
-      progress: 60,
+      progress: 50,
       img: kubernetesLogo,
     },
   ],
@@ -170,6 +181,39 @@ export const data: Data = {
     },
   ],
   experiences: [
+    {
+      period: 'August 2023 - Today',
+      title: 'CEO & Co-Founder',
+      employer: 'rappicode GmbH',
+      employerLink: 'https://www.rappicode.com/',
+      employmentRate: '-',
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'In 2023 I co-founded rappicode GmbH which specializes in the development of Atlassian apps.',
+              link: null,
+            },
+          ],
+        },
+        {
+          spanItems: [
+            {
+              text: 'Our apps can be installed directly from the ',
+              link: null,
+            },
+            {
+              text: 'Atlassian marketplace',
+              link: 'https://marketplace.atlassian.com/vendors/1224179/rappicode',
+            },
+            {
+              text: '.',
+              link: null,
+            },
+          ],
+        },
+      ],
+    },
     {
       period: 'April 2022 - Today',
       title: 'Software Engineer',
@@ -207,13 +251,13 @@ export const data: Data = {
   ],
   projects: [
     {
-      period: '2021 - Present',
+      period: '2021 - 2022',
       title: 'Jalapeño API Gateway',
       img: jagwImg,
       projectLinks: [
         {
           name: 'Project',
-          link: 'https://www.segment-routing.ch/projects/project-jagw/',
+          link: 'https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ins-institut-fuer-netzwerke-und-sicherheit/forschungsprojekte/jalapeno-api-gateway',
           awesomeFontIcon: ['fas', 'external-link-alt'],
         },
       ],
@@ -246,58 +290,12 @@ export const data: Data = {
     },
     {
       period: '2021',
-      title: 'segment-routing.ch',
-      img: srWebsiteImg,
-      projectLinks: [
-        {
-          name: 'Website',
-          link: 'https://www.segment-routing.ch/',
-          awesomeFontIcon: ['fas', 'external-link-alt'],
-        },
-      ],
-      paragraphs: [
-        {
-          spanItems: [
-            {
-              text: 'In July 2021 I developed the website ',
-              link: null,
-            },
-            {
-              text: 'www.segment-routing.ch',
-              link: 'https://www.segment-routing.ch/',
-            },
-            {
-              text: '(using ',
-              link: null,
-            },
-            {
-              text: 'Hugo',
-              link: 'https://gohugo.io/',
-            },
-            {
-              text: ') for the ',
-              link: null,
-            },
-            {
-              text: 'INS Institute for Networked Solutions',
-              link: 'https://www.ins.hsr.ch/',
-            },
-            {
-              text: ' in order to showcase our work in the field of Segment Routing.',
-              link: null,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      period: '2021',
       title: 'SR-App: Service Programming (Frontend)',
       img: serproImg,
       projectLinks: [
         {
           name: 'Project',
-          link: 'https://www.segment-routing.ch/projects/project-serpro/',
+          link: 'https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ins-institut-fuer-netzwerke-und-sicherheit/angebot/workshop/service-programming',
           awesomeFontIcon: ['fas', 'external-link-alt'],
         },
         {
@@ -337,7 +335,7 @@ export const data: Data = {
         },
         {
           name: 'Project',
-          link: 'https://www.segment-routing.ch/projects/project-lsp/',
+          link: 'https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ins-institut-fuer-netzwerke-und-sicherheit/angebot/workshop/network-analytics',
           awesomeFontIcon: ['fas', 'external-link-alt'],
         },
         {

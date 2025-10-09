@@ -13,7 +13,7 @@ const Paragraph = (props: ParagraphProps): JSX.Element => {
       {paragraph.spanItems &&
         paragraph.spanItems.map((item, i) => {
           return item.link ? (
-            <a key={i} href={item.link}>
+            <a key={i} href={item.link} target="_blank" rel="noopener noreferrer">
               {item.text}
             </a>
           ) : (

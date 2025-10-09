@@ -6,11 +6,9 @@ Built with React.
 
 ## Running the app locally
 
-To run the application locally, make sure you have [yarn](https://classic.yarnpkg.com/lang/en/docs/install/) installed on your machine.
-Then run the following commands:
 ```bash
-yarn
-yarn start
+npm i
+npm start
 ```
 
 The website will be available at http://localhost:3000/.
