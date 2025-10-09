@@ -1,8 +1,8 @@
-# michelbongard.ch.github.io
+# ubaumann.ch
 
-This is the github-pages repository for the website <a href="https://michelbongard.ch">michelbongard.ch</a>.
+This is the github-pages repository for the website <a href="https://ubaumann.ch">ubaumann.ch</a>.
 
-Built with React.
+Built with React. Forked from michelbongard.ch.github.io
 
 ## Running the app locally
 
