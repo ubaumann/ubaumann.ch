@@ -228,6 +228,16 @@ export const data: Data = {
           link: 'https://github.com/pydantify/pydantify',
           awesomeFontIcon: ['fab', 'github'],
         },
+        {
+          name: 'Docs',
+          link: 'https://pydantify.github.io/pydantify/',
+          awesomeFontIcon: ['fas', 'external-link-alt'],
+        },
+        {
+          name: 'Demo',
+          link: 'https://youtu.be/j6efvpNy9Yc',
+          awesomeFontIcon: ['fab', 'youtube'],
+        },
       ],
       paragraphs: [
         {
@@ -280,21 +290,6 @@ export const data: Data = {
       title: 'MPLS L3 VPN provisioning and operation',
       img: serproImg,
       projectLinks: [
-        {
-          name: 'Thesis',
-          link: 'https://eprints.ost.ch/id/eprint/909/1/HS%202020%202021-BA-EP-Bongard-Illi-SR-App%20Analytics.pdf',
-          awesomeFontIcon: ['fas', 'external-link-alt'],
-        },
-        {
-          name: 'Project',
-          link: 'https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ins-institut-fuer-netzwerke-und-sicherheit/angebot/workshop/network-analytics',
-          awesomeFontIcon: ['fas', 'external-link-alt'],
-        },
-        {
-          name: 'Demo',
-          link: 'https://www.youtube.com/watch?v=SouxeTTXx1E',
-          awesomeFontIcon: ['fab', 'youtube'],
-        },
       ],
       paragraphs: [
         {
