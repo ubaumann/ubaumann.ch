@@ -311,4 +311,57 @@ export const data: Data = {
       ],
     },
   ],
+  talks: [
+    {
+      period: 'May 2025',
+      title: 'Teaching "old" LLMs new tricks',
+      event: 'Autocon 3',
+      img: serproImg,
+      videoUrl: 'https://www.youtube.com/embed/X073YnquOho?si=AiC8bv-Y1h50aPWp',
+      talkLinks: [
+        {
+          name: 'Slides',
+          link: 'https://github.com/ubaumann/slides_autocon3_2025/blob/main/presentation.pdf',
+          awesomeFontIcon: ['fab', 'github'],
+        },
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'Lightning talk about fine-tuning LLMs with LoRA.',
+              link: null,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      period: 'November 2015',
+      title: 'Remote LAB',
+      event: 'SwiNog #29',
+      img: serproImg,
+      talkLinks: [
+        {
+          name: 'Slides',
+          link: 'https://www.swinog.ch/wp-content/uploads/2018/07/01_Urs_Baumann_Remote_LAB.pdf',
+          awesomeFontIcon: ['fas', 'external-link-alt'],
+        },
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'This presentation outlines the design and implementation of a Remote Lab environment for network and cloud infrastructure education. ',
+              link: null,
+            },
+            {
+              text: 'It explains the architecture, management tools, and OpenStack-based services that enable students to access lab setups remotely, allowing for scalable and practical training in SDN, NFV, CCIE lab, and related fields.',
+              link: null,
+            },
+          ],
+        },
+      ],
+    },
+  ]
 };

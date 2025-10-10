@@ -5,6 +5,7 @@ import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import Certificates from './components/Certificates/Certificates';
+import Tasks from './components/Talks/Talks';
 
 function App(): JSX.Element {
   return (
@@ -15,6 +16,7 @@ function App(): JSX.Element {
       <Certificates />
       <Experience />
       <Projects />
+      <Tasks />
       <Footer />
     </div>
   );

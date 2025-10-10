@@ -7,6 +7,7 @@ import {
   Skill,
   SkillLevel,
   SocialIcon,
+  Talk
 } from '.';
 
 export interface Data {
@@ -24,4 +25,5 @@ export interface Data {
   certificates: Certificate[];
   experiences: Experience[];
   projects: Project[];
+  talks: Talk[];
 }

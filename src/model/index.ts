@@ -8,6 +8,7 @@ import { Skill as Skill_ } from './Skill';
 import { SkillLevel as SkillLevel_ } from './SkillLevel';
 import { SocialIcon as SocialIcon_ } from './SocialIcon';
 import { Certificate as Certificate_ } from './Certificate';
+import { Talk as Talk_, TalkLink as TalkLink_ } from './Talk';
 
 export type Data = Data_;
 export type AboutMe = AboutMe_;
@@ -21,3 +22,5 @@ export type Skill = Skill_;
 export type SkillLevel = SkillLevel_;
 export type SocialIcon = SocialIcon_;
 export type Certificate = Certificate_;
+export type Talk = Talk_;
+export type TalkLink = TalkLink_;
