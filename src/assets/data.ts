@@ -337,6 +337,29 @@ export const data: Data = {
       ],
     },
     {
+      period: "May 2017",
+      title: "Network Automation – Road trip to an automated Network",
+      event: "SwiNOG #31",
+      img: serproImg,
+      talkLinks: [
+        {
+          "name": "Slides",
+          "link": "https://www.swinog.ch/wp-content/uploads/2018/07/09_Urs_Baumann_Network_Automation_%E2%80%93_Road_trip_to_an_automated_Network.pdf",
+          "awesomeFontIcon": ["fas", "external-link-alt"]
+        }
+      ],
+      "paragraphs": [
+        {
+          "spanItems": [
+            {
+              "text": "Presentation discussing the journey toward network automation, exploring the challenges, tools, and benefits of implementing automated processes in network environments.",
+              "link": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: 'November 2015',
       title: 'Remote LAB',
       event: 'SwiNog #29',
