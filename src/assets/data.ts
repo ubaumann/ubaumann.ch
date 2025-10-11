@@ -428,6 +428,28 @@ export const data: Data = {
       ]
     },
     {
+      period: "November 2023",
+      title: "The State of Network Automation",
+      event: "AutoCon 0",
+      img: "serproImg",
+      videoUrl: "https://www.youtube.com/embed/o41VuaI3_R4?si=wnVFrLB0_aGT5d9N",
+      talkLinks: [],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: "Mini-Track session moderated by Kirk Byers (Twin Bridges Technology) with speakers Dawn Howell (Equinix, Inc.), Karl Newell (Internet2), Nick Thompson (World Wide Technology), and Urs Baumann (Swisscom).",
+              link: null
+            },
+            {
+              text: "The discussion focuses on the current state, challenges, and advancements in network automation across different organizations.",
+              link: null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: "November 2017",
       title: "Network Unit Testing with SaltStack",
       event: "SwiNOG #32",
