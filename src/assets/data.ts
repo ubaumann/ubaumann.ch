@@ -337,27 +337,67 @@ export const data: Data = {
       ],
     },
     {
+      period: "September 2024",
+      title: "OpenGitOps Principles in Networking",
+      event: "SwiNOG #39",
+      img: serproImg,
+      videoUrl: "https://www.youtube.com/embed/4TZyIOY2lTo?si=-El4Yut55TgpDkpU",
+      talkLinks: [
+        {
+          name: "Slides",
+          link: "https://www.swinog.ch/wp-content/uploads/2024/09/OpenGitOps-Principles-in-Networking-Urs-Baumann.pdf",
+          awesomeFontIcon: ["fas", "external-link-alt"]
+        }
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: "GitOps is a widely used term, and the CNCF GitOps Working Group has defined four principles: \"Declarative,\" \"Versioned and Immutable,\" \"Pulled Automatically,\" and \"Continuously Reconciled.\"",
+              link: null
+            },
+            {
+              text: "This presentation explores how these principles apply to network automation and operations, illustrating what it means to adopt GitOps practices in networking environments.",
+              link: null
+            },
+            {
+              text: "Tools like ",
+              link: null
+            },
+            {
+              text: "Kubnet",
+              link: "https://learn.kubenet.dev"
+            },
+            {
+              text: " and the newly released Infrahub from OpsMill are showcased as examples that simplify building GitOps-based networking solutions.",
+              link: null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: "November 2017",
       title: "Network Unit Testing with SaltStack",
       event: "SwiNOG #32",
       img: serproImg,
       talkLinks: [
         {
-          "name": "Slides",
-          "link": "https://www.swinog.ch/wp-content/uploads/2018/07/Urs_Baumann_Network_Unit_Testing_with_SaltStack.pdf",
-          "awesomeFontIcon": ["fas", "external-link-alt"]
+          name: "Slides",
+          link: "https://www.swinog.ch/wp-content/uploads/2018/07/Urs_Baumann_Network_Unit_Testing_with_SaltStack.pdf",
+          awesomeFontIcon: ["fas", "external-link-alt"]
         }
       ],
       paragraphs: [
         {
-          "spanItems": [
+          spanItems: [
             {
-              "text": "Talk focusing on how to apply unit testing principles to network configurations using SaltStack.",
-              "link": null
+              text: "Talk focusing on how to apply unit testing principles to network configurations using SaltStack.",
+              link: null
             },
             {
-              "text": "It demonstrates methods for validating network states, automating configuration checks, and ensuring reliability in network automation workflows.",
-              "link": null
+              text: "It demonstrates methods for validating network states, automating configuration checks, and ensuring reliability in network automation workflows.",
+              link: null
             }
           ]
         }
@@ -370,17 +410,17 @@ export const data: Data = {
       img: serproImg,
       talkLinks: [
         {
-          "name": "Slides",
-          "link": "https://www.swinog.ch/wp-content/uploads/2018/07/09_Urs_Baumann_Network_Automation_%E2%80%93_Road_trip_to_an_automated_Network.pdf",
-          "awesomeFontIcon": ["fas", "external-link-alt"]
+          name: "Slides",
+          link: "https://www.swinog.ch/wp-content/uploads/2018/07/09_Urs_Baumann_Network_Automation_%E2%80%93_Road_trip_to_an_automated_Network.pdf",
+          awesomeFontIcon: ["fas", "external-link-alt"]
         }
       ],
       paragraphs: [
         {
-          "spanItems": [
+          spanItems: [
             {
-              "text": "Presentation discussing the journey toward network automation, exploring the challenges, tools, and benefits of implementing automated processes in network environments.",
-              "link": null
+              text: "Presentation discussing the journey toward network automation, exploring the challenges, tools, and benefits of implementing automated processes in network environments.",
+              link: null
             }
           ]
         }
