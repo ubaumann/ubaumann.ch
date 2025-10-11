@@ -377,6 +377,34 @@ export const data: Data = {
       ]
     },
     {
+      period: "May 2024",
+      title: "How my first Network Automation project failed (and is still in production)",
+      event: "AutoCon 1",
+      img: serproImg,
+      videoUrl: "https://www.youtube.com/embed/C2lbhWuD6Mo?si=GaUvWfTyO0cCGKQm",
+      talkLinks: [
+        {
+          name: "Slides",
+          link: "https://github.com/ubaumann/slides_autocon1_2024/blob/master/presentation.pdf",
+          awesomeFontIcon: ["fab", "github"]
+        }
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: "A candid talk about the lessons learned from a real-world network automation project that didn’t go as planned but still ended up running successfully in production.",
+              link: null
+            },
+            {
+              text: "The presentation covers common pitfalls, practical takeaways, and insights on building resilient automation workflows even when things don’t go perfectly.",
+              link: null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: "November 2017",
       title: "Network Unit Testing with SaltStack",
       event: "SwiNOG #32",
