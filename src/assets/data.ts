@@ -336,6 +336,41 @@ export const data: Data = {
       ]
     },
     {
+      period: "September 2025",
+      title: "AI for networking for AI - The role of AI in network operations",
+      event: "DCD Compute | London",
+      img: serproImg,
+      talkLinks: [
+        {
+          name: "Event Page",
+          link: "https://www.datacenterdynamics.com/en/dcdconnect-compute/london/2025/dcdtalks-ai-for-networking-for-ai-the-role-of-ai-in-network-operations/",
+          awesomeFontIcon: ["fas", "external-link-alt"]
+        }
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: "AI is rewriting the rules of network operations, turning chaos into control with smarter automation and predictive power. This session explores how AI can transform enterprise connectivity, making networks faster, more resilient, and efficient.",
+              link: null
+            },
+            {
+              text: "Brains Over Brawn: How AI can optimize traffic, spot bottlenecks, and boost performance without drowning in manual tweaks.",
+              link: null
+            },
+            {
+              text: "Uptime Unleashed: How AI’s predictive capabilities can prevent outages, enhance security, and maintain smooth operations under pressure.",
+              link: null
+            },
+            {
+              text: "Lean and Green: How AI-driven operations can cut costs and energy usage while handling growing data demands, including AI-generated video traffic.",
+              link: null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: 'May 2025',
       title: 'Teaching "old" LLMs new tricks',
       event: 'Autocon 3',
