@@ -337,6 +337,33 @@ export const data: Data = {
       ],
     },
     {
+      period: "November 2017",
+      title: "Network Unit Testing with SaltStack",
+      event: "SwiNOG #32",
+      img: serproImg,
+      talkLinks: [
+        {
+          "name": "Slides",
+          "link": "https://www.swinog.ch/wp-content/uploads/2018/07/Urs_Baumann_Network_Unit_Testing_with_SaltStack.pdf",
+          "awesomeFontIcon": ["fas", "external-link-alt"]
+        }
+      ],
+      paragraphs: [
+        {
+          "spanItems": [
+            {
+              "text": "Talk focusing on how to apply unit testing principles to network configurations using SaltStack.",
+              "link": null
+            },
+            {
+              "text": "It demonstrates methods for validating network states, automating configuration checks, and ensuring reliability in network automation workflows.",
+              "link": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: "May 2017",
       title: "Network Automation – Road trip to an automated Network",
       event: "SwiNOG #31",
@@ -348,7 +375,7 @@ export const data: Data = {
           "awesomeFontIcon": ["fas", "external-link-alt"]
         }
       ],
-      "paragraphs": [
+      paragraphs: [
         {
           "spanItems": [
             {
@@ -362,7 +389,7 @@ export const data: Data = {
     {
       period: 'November 2015',
       title: 'Remote LAB',
-      event: 'SwiNog #29',
+      event: 'SwiNOG #29',
       img: serproImg,
       talkLinks: [
         {
