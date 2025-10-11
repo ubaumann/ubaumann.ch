@@ -313,6 +313,29 @@ export const data: Data = {
   ],
   talks: [
     {
+      period: "October 2025",
+      title: "Pydantify",
+      event: "NetAutoberfest 2025 - NetAuto Group RheinMain",
+      img: serproImg,
+      talkLinks: [
+        {
+          name: "Slides",
+          link: "https://github.com/ubaumann/slides_pydantify_NetAutoberfest2025/blob/main/presentation.pdf",
+          awesomeFontIcon: ["fab", "github"]
+        }
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: "How can we bridge the gap between YANG data models and modern Python development? Urs introduces Pydantify, a tool that generates Pydantic models from YANG, making network data easier to validate, manipulate, and integrate into Python workflows.",
+              link: null
+            }
+          ]
+        }
+      ]
+    },
+    {
       period: 'May 2025',
       title: 'Teaching "old" LLMs new tricks',
       event: 'Autocon 3',
