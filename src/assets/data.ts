@@ -2,17 +2,21 @@ import { Data } from '../model';
 
 import profileImg from './img/profileImage.png';
 import bannerImg from './img/banner.jpg';
-import angularLogo from './img/technologies/angular.png';
-import reactLogo from './img/technologies/react.png';
-import javaLogo from './img/technologies/java.png';
 import pythonLogo from './img/technologies/python.png';
 import dockerLogo from './img/technologies/docker.png';
 import kubernetesLogo from './img/technologies/kubernetes.png';
-import serproImg from './img/projects/project-serpro.png';
+import defaultImg from './img/default-img.png';
+import pydantifyImg from './img/projects/project-pydantify.png'
 import ckaImg from './img/certificates/cka.png';
 import ccnpEntImg from './img/certificates/ccnp_enterprise.png';
 import ccnpDCImg from './img/certificates/ccnp_datacenter.png';
 import netacadImg from './img/certificates/netacad.png';
+import swinog29Img from './img/appearances/Swinog_29.jpg'
+import swinog31Img from './img/appearances/Swinog_31.jpg'
+import swinog32Img from './img/appearances/Swinog_32.jpg'
+import NetAutoberfest2025Img from './img/appearances/NetAutoberfest2025.jpg'
+import DCDConnectLondon2025Img from './img/appearances/dcd-connect-london-2025.png'
+
 
 export const data: Data = {
   title: 'Urs Baumann',
@@ -221,7 +225,7 @@ export const data: Data = {
     {
       period: '2023 - Present',
       title: 'Pydantify',
-      img: serproImg,
+      img: pydantifyImg,
       projectLinks: [
         {
           name: 'GitHub',
@@ -262,7 +266,7 @@ export const data: Data = {
     {
       period: '2016 - 2021',
       title: 'Network Automation Stack',
-      img: serproImg,
+      img: defaultImg,
       projectLinks: [
 
       ],
@@ -288,7 +292,7 @@ export const data: Data = {
     {
       period: '2019',
       title: 'MPLS L3 VPN provisioning and operation',
-      img: serproImg,
+      img: defaultImg,
       projectLinks: [
       ],
       paragraphs: [
@@ -317,7 +321,8 @@ export const data: Data = {
       title: "Pydantify",
       event: "NetAutoberfest 2025 - NetAuto Group RheinMain",
       kind: "Talk",
-      img: serproImg,
+      img: NetAutoberfest2025Img,
+      imgAlt: "Picture of me presenting. Picture taken by Logicalis GmbH",
       appearanceLinks: [
         {
           name: "Slides",
@@ -340,8 +345,8 @@ export const data: Data = {
       period: "September 2025",
       title: "AI for networking for AI - The role of AI in network operations",
       event: "DCD Compute | London",
-      kind: "Talk",
-      img: serproImg,
+      kind: "Panel",
+      img: DCDConnectLondon2025Img,
       appearanceLinks: [
         {
           name: "Event Page",
@@ -377,7 +382,7 @@ export const data: Data = {
       title: 'Teaching "old" LLMs new tricks',
       event: 'Autocon 3',
       kind: "Talk",
-      img: serproImg,
+      img: defaultImg,
       videoUrl: 'https://www.youtube.com/embed/X073YnquOho?si=AiC8bv-Y1h50aPWp',
       appearanceLinks: [
         {
@@ -410,7 +415,7 @@ export const data: Data = {
       title: "OpenGitOps Principles in Networking",
       event: "SwiNOG #39",
       kind: "Talk",
-      img: serproImg,
+      img: defaultImg,
       videoUrl: "https://www.youtube.com/embed/4TZyIOY2lTo?si=-El4Yut55TgpDkpU",
       appearanceLinks: [
         {
@@ -451,7 +456,7 @@ export const data: Data = {
       title: "How my first Network Automation project failed (and is still in production)",
       event: "AutoCon 1",
       kind: "Talk",
-      img: serproImg,
+      img: defaultImg,
       videoUrl: "https://www.youtube.com/embed/C2lbhWuD6Mo?si=GaUvWfTyO0cCGKQm",
       appearanceLinks: [
         {
@@ -479,8 +484,8 @@ export const data: Data = {
       period: "November 2023",
       title: "The State of Network Automation",
       event: "AutoCon 0",
-      kind: "Talk",
-      img: "serproImg",
+      kind: "Panel",
+      img: "defaultImg",
       videoUrl: "https://www.youtube.com/embed/o41VuaI3_R4?si=wnVFrLB0_aGT5d9N",
       appearanceLinks: [],
       paragraphs: [
@@ -503,7 +508,8 @@ export const data: Data = {
       title: "Network Unit Testing with SaltStack",
       event: "SwiNOG #32",
       kind: "Talk",
-      img: serproImg,
+      img: swinog32Img,
+      imgAlt: "Picture of me presenting. Picture taken by SwiNOG",
       appearanceLinks: [
         {
           name: "Slides",
@@ -531,7 +537,8 @@ export const data: Data = {
       title: "Network Automation – Road trip to an automated Network",
       event: "SwiNOG #31",
       kind: "Talk",
-      img: serproImg,
+      img: swinog31Img,
+      imgAlt: "Picture of me presenting. Picture taken by SwiNOG",
       appearanceLinks: [
         {
           name: "Slides",
@@ -555,7 +562,8 @@ export const data: Data = {
       title: 'Remote LAB',
       event: 'SwiNOG #29',
       kind: "Talk",
-      img: serproImg,
+      img: swinog29Img,
+      imgAlt: "Picture of me presenting. Picture taken by SwiNOG",
       appearanceLinks: [
         {
           name: 'Slides',
