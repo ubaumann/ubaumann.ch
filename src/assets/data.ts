@@ -258,13 +258,13 @@ export const data: Data = {
         },
       ],
     },
-    
+
     {
       period: '2016 - 2021',
       title: 'Network Automation Stack',
       img: serproImg,
       projectLinks: [
-        
+
       ],
       paragraphs: [
         {
@@ -390,9 +390,17 @@ export const data: Data = {
         {
           spanItems: [
             {
-              text: 'Lightning talk about fine-tuning LLMs with LoRA.',
-              link: null,
+              text: "Fine-tuning Large Language Models (LLMs) for network automation tasks requires substantial resources. However, Low-Rank Adaptation (LoRA) provides a lightweight and efficient alternative.",
+              link: null
             },
+            {
+              text: "In this lightning talk, we explore how LoRA fine-tuning can significantly enhance the accuracy of LLMs for specialized automation tasks without requiring extensive computational power.",
+              link: null
+            },
+            {
+              text: "The presentation also outlines a practical fine-tuning pipeline, demonstrating how to adapt existing LLMs for network-specific automation challenges.",
+              link: null
+            }
           ],
         },
       ],
