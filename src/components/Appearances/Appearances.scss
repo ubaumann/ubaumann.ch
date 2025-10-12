@@ -1,6 +1,6 @@
 @import '../../scss/settings.scss';
 
-.Talks {
+.Appearances {
   margin-bottom: 5rem;
 
   &-List {
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: $breakpoint-one) {
-  .Talks {
+  .Appearances {
     &-List {
       display: grid;
       grid-template-columns: 1fr;
@@ -23,7 +23,7 @@
   }
 }
 @media screen and (max-width: $breakpoint-two) {
-  .Talks {
+  .Appearances {
     &-List {
       width: 20rem;
     }

@@ -1,31 +1,32 @@
-import './Talks.scss';
-import TalkItem from '../TalkItem/TalkItem';
+import './Appearances.scss';
+import AppearanceItem from '../AppearanceItem/AppearanceItem';
 import { data } from '../../assets/data';
 import Paragraph from '../Paragraph/Paragraph';
 
-const Talks = (): JSX.Element => {
+const Appearances = (): JSX.Element => {
   return (
-    <div className="Talks Section">
-      <div className="Talks-Header">
-        <div className="TileTitle">Talks</div>
+    <div className="Appearances Section">
+      <div className="Appearances-Header">
+        <div className="TileTitle">Appearances</div>
       </div>
-      <div className="Talks-List">
-        {data.talks.map((p, i) => {
+      <div className="Appearances-List">
+        {data.appearances.map((p, i) => {
           return (
-            <TalkItem
+            <AppearanceItem
               key={i}
               period={p.period}
               title={p.title}
               event={p.event}
+              kind={p.kind}
               image={p.img}
               imageAlt={p.imgAlt}
               videoUrl={p.videoUrl}
-              talkLinks={p.talkLinks}
+              appearanceLinks={p.appearanceLinks}
             >
               {p.paragraphs.map((paragraph, j) => {
                 return <Paragraph key={j} paragraph={paragraph} />;
               })}
-            </TalkItem>
+            </AppearanceItem>
           );
         })}
       </div>
@@ -33,4 +34,4 @@ const Talks = (): JSX.Element => {
   );
 };
 
-export default Talks;
+export default Appearances;

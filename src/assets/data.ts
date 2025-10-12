@@ -151,7 +151,7 @@ export const data: Data = {
     {
       period: 'September 2023 - Present',
       title: 'External University Lecturer',
-      employer: 'Swisscom',
+      employer: 'Eastern Switzerland University of Applied Sciences (OST)',
       employerLink: 'https://www.ost.ch/',
       employmentRate: '30%',
       paragraphs: [
@@ -311,13 +311,14 @@ export const data: Data = {
       ],
     },
   ],
-  talks: [
+  appearances: [
     {
       period: "October 2025",
       title: "Pydantify",
       event: "NetAutoberfest 2025 - NetAuto Group RheinMain",
+      kind: "Talk",
       img: serproImg,
-      talkLinks: [
+      appearanceLinks: [
         {
           name: "Slides",
           link: "https://github.com/ubaumann/slides_pydantify_NetAutoberfest2025/blob/main/presentation.pdf",
@@ -339,8 +340,9 @@ export const data: Data = {
       period: "September 2025",
       title: "AI for networking for AI - The role of AI in network operations",
       event: "DCD Compute | London",
+      kind: "Talk",
       img: serproImg,
-      talkLinks: [
+      appearanceLinks: [
         {
           name: "Event Page",
           link: "https://www.datacenterdynamics.com/en/dcdconnect-compute/london/2025/dcdtalks-ai-for-networking-for-ai-the-role-of-ai-in-network-operations/",
@@ -374,9 +376,10 @@ export const data: Data = {
       period: 'May 2025',
       title: 'Teaching "old" LLMs new tricks',
       event: 'Autocon 3',
+      kind: "Talk",
       img: serproImg,
       videoUrl: 'https://www.youtube.com/embed/X073YnquOho?si=AiC8bv-Y1h50aPWp',
-      talkLinks: [
+      appearanceLinks: [
         {
           name: 'Slides',
           link: 'https://github.com/ubaumann/slides_autocon3_2025/blob/main/presentation.pdf',
@@ -398,9 +401,10 @@ export const data: Data = {
       period: "September 2024",
       title: "OpenGitOps Principles in Networking",
       event: "SwiNOG #39",
+      kind: "Talk",
       img: serproImg,
       videoUrl: "https://www.youtube.com/embed/4TZyIOY2lTo?si=-El4Yut55TgpDkpU",
-      talkLinks: [
+      appearanceLinks: [
         {
           name: "Slides",
           link: "https://www.swinog.ch/wp-content/uploads/2024/09/OpenGitOps-Principles-in-Networking-Urs-Baumann.pdf",
@@ -438,9 +442,10 @@ export const data: Data = {
       period: "May 2024",
       title: "How my first Network Automation project failed (and is still in production)",
       event: "AutoCon 1",
+      kind: "Talk",
       img: serproImg,
       videoUrl: "https://www.youtube.com/embed/C2lbhWuD6Mo?si=GaUvWfTyO0cCGKQm",
-      talkLinks: [
+      appearanceLinks: [
         {
           name: "Slides",
           link: "https://github.com/ubaumann/slides_autocon1_2024/blob/master/presentation.pdf",
@@ -466,9 +471,10 @@ export const data: Data = {
       period: "November 2023",
       title: "The State of Network Automation",
       event: "AutoCon 0",
+      kind: "Talk",
       img: "serproImg",
       videoUrl: "https://www.youtube.com/embed/o41VuaI3_R4?si=wnVFrLB0_aGT5d9N",
-      talkLinks: [],
+      appearanceLinks: [],
       paragraphs: [
         {
           spanItems: [
@@ -488,8 +494,9 @@ export const data: Data = {
       period: "November 2017",
       title: "Network Unit Testing with SaltStack",
       event: "SwiNOG #32",
+      kind: "Talk",
       img: serproImg,
-      talkLinks: [
+      appearanceLinks: [
         {
           name: "Slides",
           link: "https://www.swinog.ch/wp-content/uploads/2018/07/Urs_Baumann_Network_Unit_Testing_with_SaltStack.pdf",
@@ -515,8 +522,9 @@ export const data: Data = {
       period: "May 2017",
       title: "Network Automation – Road trip to an automated Network",
       event: "SwiNOG #31",
+      kind: "Talk",
       img: serproImg,
-      talkLinks: [
+      appearanceLinks: [
         {
           name: "Slides",
           link: "https://www.swinog.ch/wp-content/uploads/2018/07/09_Urs_Baumann_Network_Automation_%E2%80%93_Road_trip_to_an_automated_Network.pdf",
@@ -538,8 +546,9 @@ export const data: Data = {
       period: 'November 2015',
       title: 'Remote LAB',
       event: 'SwiNOG #29',
+      kind: "Talk",
       img: serproImg,
-      talkLinks: [
+      appearanceLinks: [
         {
           name: 'Slides',
           link: 'https://www.swinog.ch/wp-content/uploads/2018/07/01_Urs_Baumann_Remote_LAB.pdf',
