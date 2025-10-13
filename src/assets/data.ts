@@ -57,7 +57,7 @@ export const data: Data = {
             link: null,
           },
           {
-            text: 'Eastern Switzerland University of Applied Sciences',
+            text: ' Eastern Switzerland University of Applied Sciences',
             link: 'https://www.ost.ch/en/person/urs-baumann-8373',
           },
           {
@@ -302,6 +302,14 @@ export const data: Data = {
             },
           ],
         },
+        {
+          spanItems: [
+            {
+              text: 'Technologies: Python, Pydantic, JSONSchema, YANG',
+              link: null,
+            },
+          ],
+        },
       ],
     },
 
@@ -404,15 +412,15 @@ export const data: Data = {
               link: null
             },
             {
-              text: "Brains Over Brawn: How AI can optimize traffic, spot bottlenecks, and boost performance without drowning in manual tweaks.",
+              text: " Brains Over Brawn: How AI can optimize traffic, spot bottlenecks, and boost performance without drowning in manual tweaks.",
               link: null
             },
             {
-              text: "Uptime Unleashed: How AI’s predictive capabilities can prevent outages, enhance security, and maintain smooth operations under pressure.",
+              text: " Uptime Unleashed: How AI’s predictive capabilities can prevent outages, enhance security, and maintain smooth operations under pressure.",
               link: null
             },
             {
-              text: "Lean and Green: How AI-driven operations can cut costs and energy usage while handling growing data demands, including AI-generated video traffic.",
+              text: " Lean and Green: How AI-driven operations can cut costs and energy usage while handling growing data demands, including AI-generated video traffic.",
               link: null
             }
           ]
@@ -441,11 +449,11 @@ export const data: Data = {
               link: null
             },
             {
-              text: "In this lightning talk, we explore how LoRA fine-tuning can significantly enhance the accuracy of LLMs for specialized automation tasks without requiring extensive computational power.",
+              text: " In this lightning talk, we explore how LoRA fine-tuning can significantly enhance the accuracy of LLMs for specialized automation tasks without requiring extensive computational power.",
               link: null
             },
             {
-              text: "The presentation also outlines a practical fine-tuning pipeline, demonstrating how to adapt existing LLMs for network-specific automation challenges.",
+              text: " The presentation also outlines a practical fine-tuning pipeline, demonstrating how to adapt existing LLMs for network-specific automation challenges.",
               link: null
             }
           ],
@@ -474,11 +482,11 @@ export const data: Data = {
               link: null
             },
             {
-              text: "This presentation explores how these principles apply to network automation and operations, illustrating what it means to adopt GitOps practices in networking environments.",
+              text: " This presentation explores how these principles apply to network automation and operations, illustrating what it means to adopt GitOps practices in networking environments.",
               link: null
             },
             {
-              text: "Tools like ",
+              text: " Tools like ",
               link: null
             },
             {
@@ -515,7 +523,7 @@ export const data: Data = {
               link: null
             },
             {
-              text: "The presentation covers common pitfalls, practical takeaways, and insights on building resilient automation workflows even when things don’t go perfectly.",
+              text: " The presentation covers common pitfalls, practical takeaways, and insights on building resilient automation workflows even when things don’t go perfectly.",
               link: null
             }
           ]
@@ -538,7 +546,7 @@ export const data: Data = {
               link: null
             },
             {
-              text: "The discussion focuses on the current state, challenges, and advancements in network automation across different organizations.",
+              text: " The discussion focuses on the current state, challenges, and advancements in network automation across different organizations.",
               link: null
             }
           ]
@@ -567,7 +575,7 @@ export const data: Data = {
               link: null
             },
             {
-              text: "It demonstrates methods for validating network states, automating configuration checks, and ensuring reliability in network automation workflows.",
+              text: " It demonstrates methods for validating network states, automating configuration checks, and ensuring reliability in network automation workflows.",
               link: null
             }
           ]
@@ -621,7 +629,7 @@ export const data: Data = {
               link: null,
             },
             {
-              text: 'It explains the architecture, management tools, and OpenStack-based services that enable students to access lab setups remotely, allowing for scalable and practical training in SDN, NFV, CCIE lab, and related fields.',
+              text: ' It explains the architecture, management tools, and OpenStack-based services that enable students to access lab setups remotely, allowing for scalable and practical training in SDN, NFV, CCIE lab, and related fields.',
               link: null,
             },
           ],
