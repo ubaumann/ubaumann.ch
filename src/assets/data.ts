@@ -5,6 +5,9 @@ import bannerImg from './img/banner.jpg';
 import pythonLogo from './img/technologies/python.png';
 import dockerLogo from './img/technologies/docker.png';
 import kubernetesLogo from './img/technologies/kubernetes.png';
+import awsLogo from './img/technologies/aws.png';
+import nornirLogo from './img/technologies/nornir.png';
+import yangLogo from './img/technologies/yang.png';
 import defaultImg from './img/default-img.png';
 import pydantifyImg from './img/projects/project-pydantify.png'
 import ckaImg from './img/certificates/cka.png';
@@ -102,6 +105,21 @@ export const data: Data = {
       name: 'Kubernetes',
       progress: 50,
       img: kubernetesLogo,
+    },
+    {
+      name: 'AWS',
+      progress: 50,
+      img: awsLogo,
+    },
+    {
+      name: 'Nornir / NAPALM / Netmiko / Scrapli',
+      progress: 90,
+      img: nornirLogo,
+    },
+    {
+      name: 'YANG / NETCONF / RESTCONF / gNMI',
+      progress: 76,
+      img: yangLogo,
     },
   ],
   skillLevels: [
