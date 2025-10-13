@@ -3,11 +3,15 @@ import { Data } from '../model';
 import profileImg from './img/profileImage.png';
 import bannerImg from './img/banner.jpg';
 import pythonLogo from './img/technologies/python.png';
+import rustLogo from './img/technologies/rust.png';
 import dockerLogo from './img/technologies/docker.png';
 import kubernetesLogo from './img/technologies/kubernetes.png';
 import awsLogo from './img/technologies/aws.png';
+import kubenetLogo from './img/technologies/kubenet.png'
 import nornirLogo from './img/technologies/nornir.png';
 import yangLogo from './img/technologies/yang.png';
+import ansibleLogo from './img/technologies/ansible.png'
+import opentofuLogo from './img/technologies/opentofu.png'
 import defaultImg from './img/default-img.png';
 import pydantifyImg from './img/projects/project-pydantify.png'
 import ckaImg from './img/certificates/cka.png';
@@ -97,6 +101,11 @@ export const data: Data = {
       img: pythonLogo,
     },
     {
+      name: 'Rust',
+      progress: 15,
+      img:rustLogo,
+    },
+    {
       name: 'Docker',
       progress: 80,
       img: dockerLogo,
@@ -112,6 +121,11 @@ export const data: Data = {
       img: awsLogo,
     },
     {
+      name: 'Kubenet',
+      progress: 25,
+      img: kubenetLogo,
+    },
+    {
       name: 'Nornir / NAPALM / Netmiko / Scrapli',
       progress: 90,
       img: nornirLogo,
@@ -120,6 +134,16 @@ export const data: Data = {
       name: 'YANG / NETCONF / RESTCONF / gNMI',
       progress: 76,
       img: yangLogo,
+    },
+    {
+      name: 'Ansible / Ansible Automation Platform',
+      progress: 76,
+      img: ansibleLogo,
+    },
+    {
+      name: 'OpenTofu / Terraform',
+      progress: 50,
+      img: opentofuLogo,
     },
   ],
   skillLevels: [
