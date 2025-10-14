@@ -14,6 +14,7 @@ import ansibleLogo from './img/technologies/ansible.png'
 import opentofuLogo from './img/technologies/opentofu.png'
 import defaultImg from './img/default-img.png';
 import pydantifyImg from './img/projects/project-pydantify.png'
+import nettowelStagingImg from './img/projects/project-nettowel-staging.png'
 import ckaImg from './img/certificates/cka.png';
 import ccnpEntImg from './img/certificates/ccnp_enterprise.png';
 import ccnpDCImg from './img/certificates/ccnp_datacenter.png';
@@ -316,7 +317,7 @@ export const data: Data = {
     {
       period: '2016 - 2021',
       title: 'Network Automation Stack',
-      img: defaultImg,
+      img: nettowelStagingImg,
       projectLinks: [
 
       ],
