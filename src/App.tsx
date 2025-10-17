@@ -13,9 +13,9 @@ function App(): JSX.Element {
       <Banner />
       <AboutMe />
       <Skills />
-      <Certificates />
       <Experience />
       <Projects />
+      <Certificates />
       <Appearances />
       <Footer />
     </div>
