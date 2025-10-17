@@ -14,6 +14,7 @@ import ansibleLogo from './img/technologies/ansible.png'
 import opentofuLogo from './img/technologies/opentofu.png'
 import defaultImg from './img/default-img.png';
 import pydantifyImg from './img/projects/project-pydantify.png'
+import nutsImg from './img/projects/project-NUTS.png'
 import nettowelStagingImg from './img/projects/project-nettowel-staging.png'
 import ckaImg from './img/certificates/cka.png';
 import ccnpEntImg from './img/certificates/ccnp_enterprise.png';
@@ -313,7 +314,57 @@ export const data: Data = {
         },
       ],
     },
-
+    {
+      period: '2017 - Present',
+      title: 'Network Unit Testing System (NUTS)',
+      img: nutsImg,
+      projectLinks: [
+        {
+          name: 'GitHub',
+          link: 'https://github.com/network-unit-testing-system/nuts',
+          awesomeFontIcon: ['fab', 'github'],
+        },
+        {
+          name: 'Docs',
+          link: 'https://nuts.readthedocs.io/',
+          awesomeFontIcon: ['fas', 'external-link-alt'],
+        },
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'NUTS applies the concept of unit testing to networks. It defines a desired network state and verifies it against real devices using ',
+              link: null,
+            },
+            {
+              text: 'pytest',
+              link: 'https://docs.pytest.org/',
+            },
+            {
+              text: ' and ',
+              link: null,
+            },
+            {
+              text: 'Nornir',
+              link: 'https://nornir.readthedocs.io/',
+            },
+            {
+              text: '. Network tests are expressed as YAML “test bundles” that describe expected topology and connectivity.',
+              link: null,
+            },
+          ],
+        },
+        {
+          spanItems: [
+            {
+              text: 'Technologies: Python, pytest, Nornir',
+              link: null,
+            },
+          ],
+        },
+      ],
+    },
     {
       period: '2016 - 2021',
       title: 'Network Automation Stack',
