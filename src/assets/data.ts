@@ -199,7 +199,7 @@ export const data: Data = {
     {
       period: 'September 2023 - Present',
       title: 'External University Lecturer',
-      employer: 'Eastern Switzerland University of Applied Sciences (OST)',
+      employer: 'Eastern Switzerland University of Applied Sciences',
       employerLink: 'https://www.ost.ch/',
       employmentRate: '30%',
       paragraphs: [
@@ -585,7 +585,7 @@ export const data: Data = {
     {
       period: "November 2023",
       title: "The State of Network Automation",
-      event: "AutoCon 0",
+      event: "AutoCon 0 ",
       kind: "Panel",
       img: "defaultImg",
       videoUrl: "https://www.youtube.com/embed/o41VuaI3_R4?si=wnVFrLB0_aGT5d9N",
