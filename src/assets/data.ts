@@ -73,7 +73,7 @@ export const data: Data = {
   bio: {
     firstName: 'Urs',
     lastName: 'Baumann',
-    description: 'Network Automation Prophet',
+    description: 'Network Automation Expert',
     birthday: '1987-10-20',
     email: 'webpage@m.ubaumann.ch',
     degree: 'Master of Science in Artificial Intelligence & Bachelor of Science FHO in Computer Science',
