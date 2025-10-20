@@ -95,6 +95,16 @@ export const data: Data = {
       link: 'mailto:webpage@m.ubaumann.ch',
       awesomeFontIcon: ['fas', 'envelope'],
     },
+    {
+      name: 'Bluesky',
+      link: 'https://bsky.app/profile/infrastructureascode.ch',
+      awesomeFontIcon: ['fab', 'bluesky'],
+    },
+    {
+      name: 'Credly',
+      link: 'https://www.credly.com/users/ubaumann/badges#credly',
+      awesomeFontIcon: ['fas', 'c'],
+    },
   ],
   skills: [
     {
