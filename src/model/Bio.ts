@@ -3,7 +3,6 @@ export interface Bio {
   lastName: string;
   description: string;
   birthday: string;
-  email: string;
   degree: string;
   languages: string[];
 }

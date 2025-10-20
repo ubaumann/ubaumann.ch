@@ -77,18 +77,6 @@ const AboutMe = (): JSX.Element => {
           </div>
           <div className="AboutMe-Bio-Item-Value">{getLanguages()}</div>
         </div>
-        <div className="AboutMe-Bio-Item">
-          <div className="AboutMe-Bio-Item-Name">
-            <div className="AboutMe-Bio-IconContainer">
-              <FontAwesomeIcon
-                className="AboutMe-Bio-Icon"
-                icon={['fas', 'envelope']}
-              />
-            </div>
-            <div>Email</div>
-          </div>
-          <div className="AboutMe-Bio-Item-Value">{data.bio.email}</div>
-        </div>
       </div>
     </div>
   );

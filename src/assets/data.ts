@@ -75,7 +75,6 @@ export const data: Data = {
     lastName: 'Baumann',
     description: 'Network Automation Expert',
     birthday: '1987-10-20',
-    email: 'webpage@m.ubaumann.ch',
     degree: 'Master of Science in Artificial Intelligence & Bachelor of Science FHO in Computer Science',
     languages: ['German', 'English', 'Parseltongue'],
   },
@@ -90,11 +89,11 @@ export const data: Data = {
       link: 'https://www.linkedin.com/in/ubaumannch',
       awesomeFontIcon: ['fab', 'linkedin'],
     },
-    {
-      name: 'Email',
-      link: 'mailto:webpage@m.ubaumann.ch',
-      awesomeFontIcon: ['fas', 'envelope'],
-    },
+    // {
+    //   name: 'Email',
+    //   link: 'mailto:webpage@m.ubaumann.ch',
+    //   awesomeFontIcon: ['fas', 'envelope'],
+    // },
     {
       name: 'Bluesky',
       link: 'https://bsky.app/profile/infrastructureascode.ch',
