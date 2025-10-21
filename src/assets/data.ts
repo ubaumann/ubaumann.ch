@@ -16,6 +16,7 @@ import defaultImg from './img/default-img.png';
 import pydantifyImg from './img/projects/project-pydantify.png'
 import nutsImg from './img/projects/project-NUTS.png'
 import nettowelStagingImg from './img/projects/project-nettowel-staging.png'
+import networkAutomagicImg from './img/projects/project-networkautomagic.png'
 import ckaImg from './img/certificates/cka.png';
 import ccnpEntImg from './img/certificates/ccnp_enterprise.png';
 import ccnpDCImg from './img/certificates/ccnp_datacenter.png';
@@ -275,6 +276,67 @@ export const data: Data = {
     },
   ],
   projects: [
+        {
+      period: '2025 - Present',
+      title: 'Network Automagic Podcast',
+      img: networkAutomagicImg,
+      projectLinks: [
+        {
+          name: 'Website',
+          link: 'https://networkautomagic.net/',
+          awesomeFontIcon: ['fas', 'external-link-alt'],
+        },
+        {
+          name: 'Spotify',
+          link: 'https://open.spotify.com/show/2UubY0s1KCJ4ct9srD2yUW?si=e22f5d886e3c4166',
+          awesomeFontIcon: ['fab', 'spotify'],
+        },
+        {
+          name: 'YouTube',
+          link: 'https://www.youtube.com/@NetworkAutomagic',
+          awesomeFontIcon: ['fab', 'youtube'],
+        },
+        {
+          name: 'Apple',
+          link: 'https://podcasts.apple.com/is/podcast/network-automagic/id1796167806',
+          awesomeFontIcon: ['fab', 'apple'],
+        },
+      ],
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'Network Automagic is a podcast hosted by ',
+              link: null,
+            },
+            {
+              text: 'Steinn and myself',
+              link: null,
+            },
+            {
+              text: ', exploring the evolving world of network automation, observability, and infrastructure-as-code.',
+              link: null,
+            },
+          ],
+        },
+        {
+          spanItems: [
+            {
+              text: 'Each episode features discussions with experts and practitioners about real-world automation challenges, open-source tooling, and the future of programmable networks.',
+              link: null,
+            },
+          ],
+        },
+        // {
+        //   spanItems: [
+        //     {
+        //       text: 'Technologies: Terraform, Python, NetDevOps, Infrastructure-as-Code, GitOps',
+        //       link: null,
+        //     },
+        //   ],
+        // },
+      ],
+    },
     {
       period: '2023 - Present',
       title: 'Pydantify',
