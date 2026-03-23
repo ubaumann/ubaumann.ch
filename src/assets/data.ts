@@ -97,7 +97,7 @@ export const data: Data = {
     // },
     {
       name: 'Bluesky',
-      link: 'https://bsky.app/profile/infrastructureascode.ch',
+      link: 'https://bsky.app/profile/urs.infrastructureascode.ch',
       awesomeFontIcon: ['fab', 'bluesky'],
     },
     {
