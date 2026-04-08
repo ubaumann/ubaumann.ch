@@ -37,10 +37,42 @@ export const data: Data = {
   profileImgAlt: 'Urs Baumann',
   aboutMe: {
     paragraphs: [
+      // {
+      //   spanItems: [
+      //     {
+      //       text: 'Hi, I am Urs, a network automation expert from Switzerland.',
+      //       link: null,
+      //     },
+      //   ],
+      // },
+      // {
+      //   spanItems: [
+      //     {
+      //       text: 'I currently work 80% at Swisscom as a Network Automation Engineer on an Infrastructure as Code project for the Swiss Government.',
+      //       link: null,
+      //     },
+      //   ],
+      // },
+      // {
+      //   spanItems: [
+      //     {
+      //       text: 'Part-time, I am an external university lecturer at the',
+      //       link: null,
+      //     },
+      //     {
+      //       text: ' Eastern Switzerland University of Applied Sciences',
+      //       link: 'https://www.ost.ch/en/person/urs-baumann-8373',
+      //     },
+      //     {
+      //       text: ', where I teach network fundamentals, network automation, and supervise bachelor theses.',
+      //       link: null,
+      //     },
+      //   ],
+      // },
       {
         spanItems: [
           {
-            text: 'Hi, I am Urs, a network automation expert from Switzerland.',
+            text: 'As a Customer Success Architect at Isovalent, I work on Cisco Hypershield and smart switching to advance a cloud-native model for distributed security enforcement.',
             link: null,
           },
         ],
@@ -48,23 +80,7 @@ export const data: Data = {
       {
         spanItems: [
           {
-            text: 'I currently work 80% at Swisscom as a Network Automation Engineer on an Infrastructure as Code project for the Swiss Government.',
-            link: null,
-          },
-        ],
-      },
-      {
-        spanItems: [
-          {
-            text: 'Part-time, I am an external university lecturer at the',
-            link: null,
-          },
-          {
-            text: ' Eastern Switzerland University of Applied Sciences',
-            link: 'https://www.ost.ch/en/person/urs-baumann-8373',
-          },
-          {
-            text: ', where I teach network fundamentals, network automation, and supervise bachelor theses.',
+            text: 'I believe the future of security lies in moving away from centralized controls toward identity- and workload-aware enforcement embedded directly into the infrastructure. My work focuses on helping organizations adopt this shift—leveraging modern networking, eBPF, and Kubernetes-native approaches to build secure and observable systems at scale.',
             link: null,
           },
         ],
@@ -207,7 +223,24 @@ export const data: Data = {
   ],
   experiences: [
     {
-      period: 'September 2023 - Present',
+      period: 'February 2026 - Present',
+      title: 'Customer Success Architect',
+      employer: 'Isovalent at Cisco',
+      employerLink: 'https://isovalent.com/',
+      employmentRate: '100%',
+      paragraphs: [
+        {
+          spanItems: [
+            {
+              text: 'Helping organizations adopt this shift—leveraging modern networking, eBPF, and Kubernetes-native approaches to build secure and observable systems at scale.',
+              link: null,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      period: 'September 2023 - February 2026',
       title: 'External University Lecturer',
       employer: 'Eastern Switzerland University of Applied Sciences',
       employerLink: 'https://www.ost.ch/',
